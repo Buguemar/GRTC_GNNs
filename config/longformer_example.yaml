@@ -1,0 +1,27 @@
+input_dir_folder: /home/mbugueno/TC_graphs/Data_RBased/
+output_dir_folder: /home/mbugueno/
+
+dataset: bbc
+
+num_classes: 5
+
+pre_trained_model: allenai/longformer-base-4096
+
+path_metrics: /home/mbugueno/copia_graph-based_TR/graph-based_TR/LMs/Results/
+
+pre_file: WANDB_ 
+
+training: 
+    batch_size: 16
+    max_epochs: 100
+    dropout: 0.2
+    max_length: 1024
+    lr: 0.001
+    
+
+experiment: 
+  runs: 1 
+  patience: 2
+  type_train: FZ
+  language-model: Longformer
+  

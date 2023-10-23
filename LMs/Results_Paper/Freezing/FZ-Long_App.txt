@@ -1,0 +1,89 @@
+
+----------- Evaluating model 0-----------
+
+Acc: tensor(0.6039)
+F1-ma: tensor(0.1506)
+F1 none: tensor([0.0000, 0.0000, 0.0000, 0.0000, 0.7531])
+Running time 0: 1463.7832300662994
+
+----------- Evaluating model 1-----------
+
+
+----------- Evaluating model 0-----------
+
+Acc: tensor(0.6039)
+F1-ma: tensor(0.1506)
+F1 none: tensor([0.0000, 0.0000, 0.0000, 0.0000, 0.7531])
+Running time 0: 1177.568951368332
+
+----------- Evaluating model 1-----------
+
+Acc: tensor(0.6039)
+F1-ma: tensor(0.1506)
+F1 none: tensor([0.0000, 0.0000, 0.0000, 0.0000, 0.7531])
+Running time 1: 2047.752718448639
+
+----------- Evaluating model 2-----------
+
+Acc: tensor(0.6039)
+F1-ma: tensor(0.1506)
+F1 none: tensor([0.0000, 0.0000, 0.0000, 0.0000, 0.7531])
+Running time 2: 1427.9872977733612
+
+----------- Evaluating model 3-----------
+
+Acc: tensor(0.6039)
+F1-ma: tensor(0.1506)
+F1 none: tensor([0.0000, 0.0000, 0.0000, 0.0000, 0.7531])
+Running time 3: 1178.1118268966675
+
+----------- Evaluating model 4-----------
+
+Acc: tensor(0.6039)
+F1-ma: tensor(0.1506)
+F1 none: tensor([0.0000, 0.0000, 0.0000, 0.0000, 0.7531])
+Running time 4: 978.9565601348877
+
+----------- Evaluating model 5-----------
+
+Acc: tensor(0.6039)
+F1-ma: tensor(0.1506)
+F1 none: tensor([0.0000, 0.0000, 0.0000, 0.0000, 0.7531])
+Running time 5: 1176.0628716945648
+
+----------- Evaluating model 6-----------
+
+Acc: tensor(0.6039)
+F1-ma: tensor(0.1506)
+F1 none: tensor([0.0000, 0.0000, 0.0000, 0.0000, 0.7531])
+Running time 6: 1175.1555180549622
+
+----------- Evaluating model 7-----------
+
+Acc: tensor(0.6039)
+F1-ma: tensor(0.1506)
+F1 none: tensor([0.0000, 0.0000, 0.0000, 0.0000, 0.7531])
+Running time 7: 1175.5685994625092
+
+----------- Evaluating model 8-----------
+
+Acc: tensor(0.6039)
+F1-ma: tensor(0.1506)
+F1 none: tensor([0.0000, 0.0000, 0.0000, 0.0000, 0.7531])
+Running time 8: 1182.8483743667603
+
+----------- Evaluating model 9-----------
+
+Acc: tensor(0.6039)
+F1-ma: tensor(0.1506)
+F1 none: tensor([0.0000, 0.0000, 0.0000, 0.0000, 0.7531])
+Running time 9: 1184.1929924488068
+
+************************************************
+RESULTS FOR N_RUN: 10
+Test Acc: 0.604 -- std: 0.000
+Test F1-macro: 0.151 -- std: 0.000
+Test F1 per class: [0.    0.    0.    0.    0.753]
+************************************************
+
+

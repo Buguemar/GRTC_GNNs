@@ -1,0 +1,82 @@
+
+----------- Evaluating model 0-----------
+
+
+----------- Evaluating model 0-----------
+
+Acc: tensor(0.9730)
+F1-ma: tensor(0.9712)
+F1 none: tensor([0.9954, 0.9660, 0.9708, 0.9530, 0.9709])
+Running time 0: 731.1284728050232
+
+----------- Evaluating model 1-----------
+
+Acc: tensor(0.9865)
+F1-ma: tensor(0.9863)
+F1 none: tensor([0.9954, 0.9934, 0.9822, 0.9799, 0.9804])
+Running time 1: 649.9728953838348
+
+----------- Evaluating model 2-----------
+
+Acc: tensor(0.9798)
+F1-ma: tensor(0.9788)
+F1 none: tensor([0.9954, 0.9801, 0.9765, 0.9664, 0.9754])
+Running time 2: 724.4819767475128
+
+----------- Evaluating model 3-----------
+
+Acc: tensor(0.9843)
+F1-ma: tensor(0.9839)
+F1 none: tensor([0.9954, 0.9868, 0.9822, 0.9799, 0.9754])
+Running time 3: 721.7185928821564
+
+----------- Evaluating model 4-----------
+
+Acc: tensor(0.9865)
+F1-ma: tensor(0.9863)
+F1 none: tensor([0.9954, 0.9934, 0.9822, 0.9799, 0.9804])
+Running time 4: 658.5559830665588
+
+----------- Evaluating model 5-----------
+
+Acc: tensor(0.9820)
+F1-ma: tensor(0.9814)
+F1 none: tensor([0.9954, 0.9801, 0.9762, 0.9799, 0.9756])
+Running time 5: 730.3073694705963
+
+----------- Evaluating model 6-----------
+
+Acc: tensor(0.9753)
+F1-ma: tensor(0.9737)
+F1 none: tensor([0.9954, 0.9673, 0.9701, 0.9605, 0.9751])
+Running time 6: 656.3478329181671
+
+----------- Evaluating model 7-----------
+
+Acc: tensor(0.9865)
+F1-ma: tensor(0.9863)
+F1 none: tensor([0.9954, 0.9868, 0.9822, 0.9865, 0.9804])
+Running time 7: 728.7706124782562
+
+----------- Evaluating model 8-----------
+
+Acc: tensor(0.9843)
+F1-ma: tensor(0.9831)
+F1 none: tensor([0.9954, 0.9737, 0.9881, 0.9733, 0.9852])
+Running time 8: 735.2439455986023
+
+----------- Evaluating model 9-----------
+
+Acc: tensor(0.9798)
+F1-ma: tensor(0.9791)
+F1 none: tensor([0.9954, 0.9801, 0.9762, 0.9733, 0.9706])
+Running time 9: 736.8144111633301
+
+************************************************
+RESULTS FOR N_RUN: 10
+Test Acc: 0.982 -- std: 0.005
+Test F1-macro: 0.981 -- std: 0.005
+Test F1 per class: [0.995 0.981 0.979 0.973 0.977]
+************************************************
+
+

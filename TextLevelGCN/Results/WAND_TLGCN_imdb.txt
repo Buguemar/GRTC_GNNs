@@ -1,0 +1,14 @@
+Graph creation time 0: 454.91249442100525
+Running time 0: 750.0398631095886
+
+************************************************
+RESULTS FOR N_GRAM: 1 EMB DIM_FEATURES: word2vec-google-news-300
+Test Acc: 0.865 -- std: 0.000
+Test F1-macro: 0.865 -- std: 0.000
+Test F1 per class: [0.863 0.868]
+Mean Creation Time: 454.91249442100525
+Mean Running Time: 750.0398631095886
+Mean Total Execution Time: 1204.9523575305939
+************************************************
+
+

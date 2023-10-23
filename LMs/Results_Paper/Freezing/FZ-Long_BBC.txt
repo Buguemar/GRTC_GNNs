@@ -1,0 +1,79 @@
+
+----------- Evaluating model 0-----------
+
+Acc: tensor(0.7101)
+F1-ma: tensor(0.7044)
+F1 none: tensor([0.9488, 0.5926, 0.5907, 0.7591, 0.6309])
+Running time 0: 568.3190584182739
+
+----------- Evaluating model 1-----------
+
+Acc: tensor(0.9169)
+F1-ma: tensor(0.9113)
+F1 none: tensor([0.9817, 0.8961, 0.9143, 0.8613, 0.9029])
+Running time 1: 1000.684433221817
+
+----------- Evaluating model 2-----------
+
+Acc: tensor(0.8562)
+F1-ma: tensor(0.8475)
+F1 none: tensor([0.9391, 0.8714, 0.8058, 0.7581, 0.8632])
+Running time 2: 657.951642036438
+
+----------- Evaluating model 3-----------
+
+Acc: tensor(0.7146)
+F1-ma: tensor(0.6883)
+F1 none: tensor([0.8983, 0.5524, 0.6245, 0.5849, 0.7816])
+Running time 3: 340.88750529289246
+
+----------- Evaluating model 4-----------
+
+Acc: tensor(0.8629)
+F1-ma: tensor(0.8497)
+F1 none: tensor([0.8934, 0.7227, 0.8852, 0.8472, 0.9000])
+Running time 4: 812.808064699173
+
+----------- Evaluating model 5-----------
+
+Acc: tensor(0.8944)
+F1-ma: tensor(0.8846)
+F1 none: tensor([0.9640, 0.9067, 0.8691, 0.7778, 0.9055])
+Running time 5: 1158.7391443252563
+
+----------- Evaluating model 6-----------
+
+Acc: tensor(0.9169)
+F1-ma: tensor(0.9108)
+F1 none: tensor([0.9815, 0.8846, 0.9195, 0.8593, 0.9091])
+Running time 6: 696.8727889060974
+
+----------- Evaluating model 7-----------
+
+Acc: tensor(0.8899)
+F1-ma: tensor(0.8872)
+F1 none: tensor([0.9630, 0.8987, 0.8571, 0.8874, 0.8295])
+Running time 7: 769.6532015800476
+
+----------- Evaluating model 8-----------
+
+Acc: tensor(0.8090)
+F1-ma: tensor(0.8056)
+F1 none: tensor([0.8482, 0.8154, 0.7961, 0.8092, 0.7590])
+Running time 8: 895.5169296264648
+
+----------- Evaluating model 9-----------
+
+Acc: tensor(0.8382)
+F1-ma: tensor(0.8315)
+F1 none: tensor([0.9270, 0.8657, 0.8283, 0.8193, 0.7170])
+Running time 9: 802.5496957302094
+
+************************************************
+RESULTS FOR N_RUN: 10
+Test Acc: 0.841 -- std: 0.072
+Test F1-macro: 0.832 -- std: 0.075
+Test F1 per class: [0.935 0.801 0.809 0.796 0.82 ]
+************************************************
+
+

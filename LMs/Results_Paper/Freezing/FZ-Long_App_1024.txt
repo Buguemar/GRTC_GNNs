@@ -1,0 +1,82 @@
+
+----------- Evaluating model 0-----------
+
+
+----------- Evaluating model 0-----------
+
+Acc: tensor(0.6039)
+F1-ma: tensor(0.1506)
+F1 none: tensor([0.0000, 0.0000, 0.0000, 0.0000, 0.7531])
+Running time 0: 6650.6295483112335
+
+----------- Evaluating model 1-----------
+
+Acc: tensor(0.6039)
+F1-ma: tensor(0.1506)
+F1 none: tensor([0.0000, 0.0000, 0.0000, 0.0000, 0.7531])
+Running time 1: 6644.5517065525055
+
+----------- Evaluating model 2-----------
+
+Acc: tensor(0.6039)
+F1-ma: tensor(0.1506)
+F1 none: tensor([0.0000, 0.0000, 0.0000, 0.0000, 0.7531])
+Running time 2: 6642.950467824936
+
+----------- Evaluating model 3-----------
+
+Acc: tensor(0.6039)
+F1-ma: tensor(0.1506)
+F1 none: tensor([0.0000, 0.0000, 0.0000, 0.0000, 0.7531])
+Running time 3: 6642.615517616272
+
+----------- Evaluating model 4-----------
+
+Acc: tensor(0.6039)
+F1-ma: tensor(0.1506)
+F1 none: tensor([0.0000, 0.0000, 0.0000, 0.0000, 0.7531])
+Running time 4: 6644.4063193798065
+
+----------- Evaluating model 5-----------
+
+Acc: tensor(0.6039)
+F1-ma: tensor(0.1506)
+F1 none: tensor([0.0000, 0.0000, 0.0000, 0.0000, 0.7531])
+Running time 5: 6644.727203607559
+
+----------- Evaluating model 6-----------
+
+Acc: tensor(0.6039)
+F1-ma: tensor(0.1506)
+F1 none: tensor([0.0000, 0.0000, 0.0000, 0.0000, 0.7531])
+Running time 6: 6643.475758314133
+
+----------- Evaluating model 7-----------
+
+Acc: tensor(0.6039)
+F1-ma: tensor(0.1506)
+F1 none: tensor([0.0000, 0.0000, 0.0000, 0.0000, 0.7531])
+Running time 7: 6643.690192937851
+
+----------- Evaluating model 8-----------
+
+Acc: tensor(0.6039)
+F1-ma: tensor(0.1506)
+F1 none: tensor([0.0000, 0.0000, 0.0000, 0.0000, 0.7531])
+Running time 8: 6647.73340678215
+
+----------- Evaluating model 9-----------
+
+Acc: tensor(0.6039)
+F1-ma: tensor(0.1506)
+F1 none: tensor([0.0000, 0.0000, 0.0000, 0.0000, 0.7531])
+Running time 9: 6645.363119840622
+
+************************************************
+RESULTS FOR N_RUN: 10
+Test Acc: 0.604 -- std: 0.000
+Test F1-macro: 0.151 -- std: 0.000
+Test F1 per class: [0.    0.    0.    0.    0.753]
+************************************************
+
+

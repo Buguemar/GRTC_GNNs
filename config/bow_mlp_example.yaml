@@ -1,0 +1,21 @@
+input_dir_folder: /home/mbugueno/TC_graphs/Data_RBased/
+output_dir_folder: /home/mbugueno/
+
+dataset: bbc
+
+num_classes: 5
+
+path_metrics: /home/mbugueno/copia_graph-based_TR/graph-based_TR/BOW_MLP/Results/
+
+training: 
+    batch_size: 16
+    max_epochs: 100
+    dropout: 0.2
+    lr: 0.001
+    dim_hidden: 64
+
+experiment: 
+  runs: 1 
+  patience: 2
+  
+  

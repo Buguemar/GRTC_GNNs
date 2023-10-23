@@ -1,0 +1,32 @@
+Graph creation time 0: 105.34112334251404
+Running time 0: 329.972953081131
+Graph creation time 1: 96.59008741378784
+Running time 1: 313.89322090148926
+Graph creation time 2: 89.48090744018555
+Running time 2: 402.90492820739746
+Graph creation time 3: 92.21674156188965
+Running time 3: 302.268089056015
+Graph creation time 4: 96.09426259994507
+Running time 4: 334.74533677101135
+Graph creation time 5: 91.95818161964417
+Running time 5: 340.2308101654053
+Graph creation time 6: 90.73895788192749
+Running time 6: 296.70336651802063
+Graph creation time 7: 89.69979286193848
+Running time 7: 372.49749183654785
+Graph creation time 8: 93.49608039855957
+Running time 8: 338.64340353012085
+Graph creation time 9: 90.94816589355469
+Running time 9: 299.7182412147522
+
+************************************************
+RESULTS FOR N_GRAM: 2 EMB DIM_FEATURES: bert-base-cased
+Test Acc: 0.960 -- std: 0.002
+Test F1-macro: 0.960 -- std: 0.002
+Test F1 per class: [0.911 0.979 0.9   0.973 0.966 0.967 0.948 0.966 0.991 0.973 0.979 0.973
+ 0.968 0.943]
+Mean Creation Time: 93.65643010139465
+Mean Running Time: 333.15778412818906
+************************************************
+
+

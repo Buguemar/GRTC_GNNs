@@ -1,0 +1,20 @@
+
+TRAINING MODELS #HIDDEN DIM: 64
+
+----------- Evaluating model 0-----------
+
+
+Training stopped on epoch: 2
+Acc: tensor(0.9775)
+F1-ma: tensor(0.9759)
+F1 none: tensor([1.0000, 0.9934, 0.9540, 0.9517, 0.9802])
+Running time 0: 8.020966053009033
+
+************************************************
+RESULTS FOR HIDDEN DIM_FEATURES: 64
+Test Acc: 0.978 -- std: 0.000
+Test F1-macro: 0.976 -- std: 0.000
+Test F1 per class: [1.    0.993 0.954 0.952 0.98 ]
+************************************************
+
+

@@ -1,0 +1,1212 @@
+
+TRAINING MODELS SETTING #LAYERS: 1  HIDDEN DIM: 16
+
+----------- Evaluating model 0-----------
+
+
+Training stopped on epoch: 49
+Acc: tensor(0.8680)
+F1-ma: tensor(0.8680)
+F1 none: tensor([0.8673, 0.8687])
+Running time 0: 338.0840628147125
+
+----------- Evaluating model 1-----------
+
+
+Training stopped on epoch: 20
+Acc: tensor(0.8730)
+F1-ma: tensor(0.8730)
+F1 none: tensor([0.8750, 0.8710])
+Running time 1: 145.0826976299286
+
+----------- Evaluating model 2-----------
+
+
+Training stopped on epoch: 24
+Acc: tensor(0.8697)
+F1-ma: tensor(0.8695)
+F1 none: tensor([0.8736, 0.8655])
+Running time 2: 179.7458062171936
+
+----------- Evaluating model 3-----------
+
+
+Training stopped on epoch: 17
+Acc: tensor(0.8727)
+F1-ma: tensor(0.8726)
+F1 none: tensor([0.8746, 0.8707])
+Running time 3: 124.29570722579956
+
+----------- Evaluating model 4-----------
+
+
+Training stopped on epoch: 33
+Acc: tensor(0.8743)
+F1-ma: tensor(0.8743)
+F1 none: tensor([0.8756, 0.8730])
+Running time 4: 226.00661158561707
+
+----------- Evaluating model 5-----------
+
+
+Training stopped on epoch: 22
+Acc: tensor(0.8663)
+F1-ma: tensor(0.8658)
+F1 none: tensor([0.8570, 0.8745])
+Running time 5: 157.36892533302307
+
+----------- Evaluating model 6-----------
+
+
+Training stopped on epoch: 32
+Acc: tensor(0.8780)
+F1-ma: tensor(0.8780)
+F1 none: tensor([0.8769, 0.8791])
+Running time 6: 217.6437225341797
+
+----------- Evaluating model 7-----------
+
+
+Training stopped on epoch: 22
+Acc: tensor(0.8810)
+F1-ma: tensor(0.8809)
+F1 none: tensor([0.8780, 0.8838])
+Running time 7: 152.6794035434723
+
+----------- Evaluating model 8-----------
+
+
+Training stopped on epoch: 29
+Acc: tensor(0.8783)
+F1-ma: tensor(0.8783)
+F1 none: tensor([0.8754, 0.8811])
+Running time 8: 206.36659216880798
+
+----------- Evaluating model 9-----------
+
+
+Training stopped on epoch: 32
+Acc: tensor(0.8713)
+F1-ma: tensor(0.8710)
+F1 none: tensor([0.8640, 0.8779])
+Running time 9: 222.27544736862183
+
+************************************************
+RESULTS FOR N_LAYERS: 1  HIDDEN DIM_FEATURES: 16
+Test Acc: 0.873 -- std: 0.004
+Test F1-macro: 0.873 -- std: 0.005
+Test F1 per class: [0.872 0.875]
+************************************************
+
+
+
+TRAINING MODELS SETTING #LAYERS: 1  HIDDEN DIM: 32
+
+----------- Evaluating model 0-----------
+
+
+Training stopped on epoch: 34
+Acc: tensor(0.8713)
+F1-ma: tensor(0.8713)
+F1 none: tensor([0.8734, 0.8692])
+Running time 0: 230.09452986717224
+
+----------- Evaluating model 1-----------
+
+
+Training stopped on epoch: 28
+Acc: tensor(0.8760)
+F1-ma: tensor(0.8760)
+F1 none: tensor([0.8736, 0.8784])
+Running time 1: 193.61208820343018
+
+----------- Evaluating model 2-----------
+
+
+Training stopped on epoch: 27
+Acc: tensor(0.8743)
+F1-ma: tensor(0.8743)
+F1 none: tensor([0.8715, 0.8771])
+Running time 2: 188.08680820465088
+
+----------- Evaluating model 3-----------
+
+
+Training stopped on epoch: 20
+Acc: tensor(0.8753)
+F1-ma: tensor(0.8753)
+F1 none: tensor([0.8730, 0.8776])
+Running time 3: 147.96279740333557
+
+----------- Evaluating model 4-----------
+
+
+Training stopped on epoch: 32
+Acc: tensor(0.8663)
+F1-ma: tensor(0.8658)
+F1 none: tensor([0.8570, 0.8745])
+Running time 4: 216.86242151260376
+
+----------- Evaluating model 5-----------
+
+
+Training stopped on epoch: 48
+Acc: tensor(0.8717)
+F1-ma: tensor(0.8716)
+F1 none: tensor([0.8684, 0.8748])
+Running time 5: 322.7751066684723
+
+----------- Evaluating model 6-----------
+
+
+Training stopped on epoch: 26
+Acc: tensor(0.8713)
+F1-ma: tensor(0.8712)
+F1 none: tensor([0.8676, 0.8748])
+Running time 6: 180.44139432907104
+
+----------- Evaluating model 7-----------
+
+
+Training stopped on epoch: 26
+Acc: tensor(0.8743)
+F1-ma: tensor(0.8743)
+F1 none: tensor([0.8726, 0.8760])
+Running time 7: 182.08855938911438
+
+----------- Evaluating model 8-----------
+
+
+Training stopped on epoch: 47
+Acc: tensor(0.8697)
+F1-ma: tensor(0.8697)
+F1 none: tensor([0.8701, 0.8692])
+Running time 8: 318.5836064815521
+
+----------- Evaluating model 9-----------
+
+
+Training stopped on epoch: 15
+Acc: tensor(0.8760)
+F1-ma: tensor(0.8760)
+F1 none: tensor([0.8754, 0.8766])
+Running time 9: 111.13012933731079
+
+************************************************
+RESULTS FOR N_LAYERS: 1  HIDDEN DIM_FEATURES: 32
+Test Acc: 0.873 -- std: 0.003
+Test F1-macro: 0.873 -- std: 0.003
+Test F1 per class: [0.87  0.875]
+************************************************
+
+
+
+TRAINING MODELS SETTING #LAYERS: 1  HIDDEN DIM: 64
+
+----------- Evaluating model 0-----------
+
+
+Training stopped on epoch: 19
+Acc: tensor(0.8767)
+F1-ma: tensor(0.8766)
+F1 none: tensor([0.8738, 0.8794])
+Running time 0: 134.02312850952148
+
+----------- Evaluating model 1-----------
+
+
+Training stopped on epoch: 22
+Acc: tensor(0.8753)
+F1-ma: tensor(0.8752)
+F1 none: tensor([0.8716, 0.8789])
+Running time 1: 156.79425835609436
+
+----------- Evaluating model 2-----------
+
+
+Training stopped on epoch: 32
+Acc: tensor(0.8677)
+F1-ma: tensor(0.8673)
+F1 none: tensor([0.8602, 0.8744])
+Running time 2: 221.03698754310608
+
+----------- Evaluating model 3-----------
+
+
+Training stopped on epoch: 14
+Acc: tensor(0.8710)
+F1-ma: tensor(0.8709)
+F1 none: tensor([0.8741, 0.8677])
+Running time 3: 110.91711258888245
+
+----------- Evaluating model 4-----------
+
+
+Training stopped on epoch: 20
+Acc: tensor(0.8713)
+F1-ma: tensor(0.8713)
+F1 none: tensor([0.8724, 0.8703])
+Running time 4: 144.60745978355408
+
+----------- Evaluating model 5-----------
+
+
+Training stopped on epoch: 25
+Acc: tensor(0.8733)
+F1-ma: tensor(0.8731)
+F1 none: tensor([0.8682, 0.8780])
+Running time 5: 170.91098380088806
+
+----------- Evaluating model 6-----------
+
+
+Training stopped on epoch: 16
+Acc: tensor(0.8800)
+F1-ma: tensor(0.8800)
+F1 none: tensor([0.8787, 0.8813])
+Running time 6: 118.44892525672913
+
+----------- Evaluating model 7-----------
+
+
+Training stopped on epoch: 23
+Acc: tensor(0.8700)
+F1-ma: tensor(0.8700)
+F1 none: tensor([0.8697, 0.8703])
+Running time 7: 163.409925699234
+
+----------- Evaluating model 8-----------
+
+
+Training stopped on epoch: 21
+Acc: tensor(0.8740)
+F1-ma: tensor(0.8740)
+F1 none: tensor([0.8720, 0.8759])
+Running time 8: 146.4489243030548
+
+----------- Evaluating model 9-----------
+
+
+Training stopped on epoch: 20
+Acc: tensor(0.8757)
+F1-ma: tensor(0.8757)
+F1 none: tensor([0.8746, 0.8767])
+Running time 9: 142.37496638298035
+
+************************************************
+RESULTS FOR N_LAYERS: 1  HIDDEN DIM_FEATURES: 64
+Test Acc: 0.874 -- std: 0.003
+Test F1-macro: 0.873 -- std: 0.003
+Test F1 per class: [0.872 0.875]
+************************************************
+
+
+
+TRAINING MODELS SETTING #LAYERS: 2  HIDDEN DIM: 16
+
+----------- Evaluating model 0-----------
+
+
+Training stopped on epoch: 16
+Acc: tensor(0.8780)
+F1-ma: tensor(0.8778)
+F1 none: tensor([0.8730, 0.8826])
+Running time 0: 123.3515272140503
+
+----------- Evaluating model 1-----------
+
+
+Training stopped on epoch: 16
+Acc: tensor(0.8787)
+F1-ma: tensor(0.8786)
+F1 none: tensor([0.8758, 0.8814])
+Running time 1: 117.09737062454224
+
+----------- Evaluating model 2-----------
+
+
+Training stopped on epoch: 16
+Acc: tensor(0.8737)
+F1-ma: tensor(0.8733)
+F1 none: tensor([0.8666, 0.8800])
+Running time 2: 117.34514856338501
+
+----------- Evaluating model 3-----------
+
+
+Training stopped on epoch: 15
+Acc: tensor(0.8787)
+F1-ma: tensor(0.8787)
+F1 none: tensor([0.8778, 0.8795])
+Running time 3: 111.33557415008545
+
+----------- Evaluating model 4-----------
+
+
+Training stopped on epoch: 16
+Acc: tensor(0.8757)
+F1-ma: tensor(0.8756)
+F1 none: tensor([0.8742, 0.8771])
+Running time 4: 116.39937281608582
+
+----------- Evaluating model 5-----------
+
+
+Training stopped on epoch: 19
+Acc: tensor(0.8720)
+F1-ma: tensor(0.8717)
+F1 none: tensor([0.8656, 0.8778])
+Running time 5: 135.72993540763855
+
+----------- Evaluating model 6-----------
+
+
+Training stopped on epoch: 29
+Acc: tensor(0.8730)
+F1-ma: tensor(0.8729)
+F1 none: tensor([0.8703, 0.8756])
+Running time 6: 200.4154543876648
+
+----------- Evaluating model 7-----------
+
+
+Training stopped on epoch: 18
+Acc: tensor(0.8820)
+F1-ma: tensor(0.8820)
+F1 none: tensor([0.8811, 0.8829])
+Running time 7: 136.07647275924683
+
+----------- Evaluating model 8-----------
+
+
+Training stopped on epoch: 19
+Acc: tensor(0.8590)
+F1-ma: tensor(0.8584)
+F1 none: tensor([0.8490, 0.8678])
+Running time 8: 140.94439387321472
+
+----------- Evaluating model 9-----------
+
+
+Training stopped on epoch: 23
+Acc: tensor(0.8757)
+F1-ma: tensor(0.8757)
+F1 none: tensor([0.8763, 0.8750])
+Running time 9: 162.11262392997742
+
+************************************************
+RESULTS FOR N_LAYERS: 2  HIDDEN DIM_FEATURES: 16
+Test Acc: 0.875 -- std: 0.006
+Test F1-macro: 0.874 -- std: 0.006
+Test F1 per class: [0.871 0.878]
+************************************************
+
+
+
+TRAINING MODELS SETTING #LAYERS: 2  HIDDEN DIM: 32
+
+----------- Evaluating model 0-----------
+
+
+Training stopped on epoch: 20
+Acc: tensor(0.8703)
+F1-ma: tensor(0.8701)
+F1 none: tensor([0.8642, 0.8759])
+Running time 0: 145.294091463089
+
+----------- Evaluating model 1-----------
+
+
+Training stopped on epoch: 20
+Acc: tensor(0.8713)
+F1-ma: tensor(0.8713)
+F1 none: tensor([0.8713, 0.8713])
+Running time 1: 145.09025812149048
+
+----------- Evaluating model 2-----------
+
+
+Training stopped on epoch: 19
+Acc: tensor(0.8780)
+F1-ma: tensor(0.8779)
+F1 none: tensor([0.8740, 0.8818])
+Running time 2: 136.72021341323853
+
+----------- Evaluating model 3-----------
+
+
+Training stopped on epoch: 24
+Acc: tensor(0.8700)
+F1-ma: tensor(0.8700)
+F1 none: tensor([0.8691, 0.8709])
+Running time 3: 166.15481662750244
+
+----------- Evaluating model 4-----------
+
+
+Training stopped on epoch: 29
+Acc: tensor(0.8637)
+F1-ma: tensor(0.8636)
+F1 none: tensor([0.8620, 0.8653])
+Running time 4: 208.10789370536804
+
+----------- Evaluating model 5-----------
+
+
+Training stopped on epoch: 17
+Acc: tensor(0.8693)
+F1-ma: tensor(0.8690)
+F1 none: tensor([0.8624, 0.8756])
+Running time 5: 124.32077693939209
+
+----------- Evaluating model 6-----------
+
+
+Training stopped on epoch: 15
+Acc: tensor(0.8670)
+F1-ma: tensor(0.8668)
+F1 none: tensor([0.8719, 0.8617])
+Running time 6: 110.14921879768372
+
+----------- Evaluating model 7-----------
+
+
+Training stopped on epoch: 15
+Acc: tensor(0.8627)
+F1-ma: tensor(0.8620)
+F1 none: tensor([0.8520, 0.8719])
+Running time 7: 111.94453167915344
+
+----------- Evaluating model 8-----------
+
+
+Training stopped on epoch: 24
+Acc: tensor(0.8690)
+F1-ma: tensor(0.8689)
+F1 none: tensor([0.8651, 0.8727])
+Running time 8: 166.02569198608398
+
+----------- Evaluating model 9-----------
+
+
+Training stopped on epoch: 17
+Acc: tensor(0.8727)
+F1-ma: tensor(0.8727)
+F1 none: tensor([0.8719, 0.8734])
+Running time 9: 122.95791673660278
+
+************************************************
+RESULTS FOR N_LAYERS: 2  HIDDEN DIM_FEATURES: 32
+Test Acc: 0.869 -- std: 0.004
+Test F1-macro: 0.869 -- std: 0.004
+Test F1 per class: [0.866 0.872]
+************************************************
+
+
+
+TRAINING MODELS SETTING #LAYERS: 2  HIDDEN DIM: 64
+
+----------- Evaluating model 0-----------
+
+
+Training stopped on epoch: 14
+Acc: tensor(0.8740)
+F1-ma: tensor(0.8740)
+F1 none: tensor([0.8720, 0.8759])
+Running time 0: 104.16400003433228
+
+----------- Evaluating model 1-----------
+
+
+Training stopped on epoch: 13
+Acc: tensor(0.8730)
+F1-ma: tensor(0.8729)
+F1 none: tensor([0.8685, 0.8772])
+Running time 1: 104.75617671012878
+
+----------- Evaluating model 2-----------
+
+
+Training stopped on epoch: 18
+Acc: tensor(0.8600)
+F1-ma: tensor(0.8599)
+F1 none: tensor([0.8558, 0.8640])
+Running time 2: 131.9963357448578
+
+----------- Evaluating model 3-----------
+
+
+Training stopped on epoch: 22
+Acc: tensor(0.8640)
+F1-ma: tensor(0.8638)
+F1 none: tensor([0.8686, 0.8590])
+Running time 3: 160.76901173591614
+
+----------- Evaluating model 4-----------
+
+
+Training stopped on epoch: 18
+Acc: tensor(0.8680)
+F1-ma: tensor(0.8679)
+F1 none: tensor([0.8642, 0.8716])
+Running time 4: 133.86861181259155
+
+----------- Evaluating model 5-----------
+
+
+Training stopped on epoch: 14
+Acc: tensor(0.8713)
+F1-ma: tensor(0.8712)
+F1 none: tensor([0.8750, 0.8674])
+Running time 5: 104.53606653213501
+
+----------- Evaluating model 6-----------
+
+
+Training stopped on epoch: 16
+Acc: tensor(0.8653)
+F1-ma: tensor(0.8653)
+F1 none: tensor([0.8631, 0.8675])
+Running time 6: 117.67882299423218
+
+----------- Evaluating model 7-----------
+
+
+Training stopped on epoch: 19
+Acc: tensor(0.8620)
+F1-ma: tensor(0.8620)
+F1 none: tensor([0.8625, 0.8615])
+Running time 7: 134.0120882987976
+
+----------- Evaluating model 8-----------
+
+
+Training stopped on epoch: 19
+Acc: tensor(0.8647)
+F1-ma: tensor(0.8646)
+F1 none: tensor([0.8609, 0.8683])
+Running time 8: 142.28528237342834
+
+----------- Evaluating model 9-----------
+
+
+Training stopped on epoch: 13
+Acc: tensor(0.8643)
+F1-ma: tensor(0.8638)
+F1 none: tensor([0.8551, 0.8725])
+Running time 9: 95.98730444908142
+
+************************************************
+RESULTS FOR N_LAYERS: 2  HIDDEN DIM_FEATURES: 64
+Test Acc: 0.867 -- std: 0.004
+Test F1-macro: 0.867 -- std: 0.005
+Test F1 per class: [0.865 0.868]
+************************************************
+
+
+
+TRAINING MODELS SETTING #LAYERS: 3  HIDDEN DIM: 16
+
+----------- Evaluating model 0-----------
+
+
+Training stopped on epoch: 26
+Acc: tensor(0.8697)
+F1-ma: tensor(0.8696)
+F1 none: tensor([0.8667, 0.8725])
+Running time 0: 181.0626199245453
+
+----------- Evaluating model 1-----------
+
+
+Training stopped on epoch: 21
+Acc: tensor(0.8690)
+F1-ma: tensor(0.8688)
+F1 none: tensor([0.8639, 0.8738])
+Running time 1: 149.9930715560913
+
+----------- Evaluating model 2-----------
+
+
+Training stopped on epoch: 17
+Acc: tensor(0.8783)
+F1-ma: tensor(0.8782)
+F1 none: tensor([0.8736, 0.8827])
+Running time 2: 125.12818884849548
+
+----------- Evaluating model 3-----------
+
+
+Training stopped on epoch: 23
+Acc: tensor(0.8733)
+F1-ma: tensor(0.8732)
+F1 none: tensor([0.8690, 0.8774])
+Running time 3: 160.74511623382568
+
+----------- Evaluating model 4-----------
+
+
+Training stopped on epoch: 15
+Acc: tensor(0.8777)
+F1-ma: tensor(0.8774)
+F1 none: tensor([0.8723, 0.8826])
+Running time 4: 110.10936546325684
+
+----------- Evaluating model 5-----------
+
+
+Training stopped on epoch: 13
+Acc: tensor(0.8837)
+F1-ma: tensor(0.8837)
+F1 none: tensor([0.8825, 0.8849])
+Running time 5: 103.83151245117188
+
+----------- Evaluating model 6-----------
+
+
+Training stopped on epoch: 18
+Acc: tensor(0.8677)
+F1-ma: tensor(0.8673)
+F1 none: tensor([0.8745, 0.8601])
+Running time 6: 134.9476191997528
+
+----------- Evaluating model 7-----------
+
+
+Training stopped on epoch: 20
+Acc: tensor(0.8583)
+F1-ma: tensor(0.8574)
+F1 none: tensor([0.8690, 0.8457])
+Running time 7: 143.36468148231506
+
+----------- Evaluating model 8-----------
+
+
+Training stopped on epoch: 17
+Acc: tensor(0.8783)
+F1-ma: tensor(0.8782)
+F1 none: tensor([0.8735, 0.8828])
+Running time 8: 123.94183659553528
+
+----------- Evaluating model 9-----------
+
+
+Training stopped on epoch: 18
+Acc: tensor(0.8713)
+F1-ma: tensor(0.8713)
+F1 none: tensor([0.8681, 0.8744])
+Running time 9: 130.60104274749756
+
+************************************************
+RESULTS FOR N_LAYERS: 3  HIDDEN DIM_FEATURES: 16
+Test Acc: 0.873 -- std: 0.007
+Test F1-macro: 0.872 -- std: 0.007
+Test F1 per class: [0.871 0.874]
+************************************************
+
+
+
+TRAINING MODELS SETTING #LAYERS: 3  HIDDEN DIM: 32
+
+----------- Evaluating model 0-----------
+
+
+Training stopped on epoch: 15
+Acc: tensor(0.8713)
+F1-ma: tensor(0.8711)
+F1 none: tensor([0.8662, 0.8761])
+Running time 0: 110.06496453285217
+
+----------- Evaluating model 1-----------
+
+
+Training stopped on epoch: 21
+Acc: tensor(0.8540)
+F1-ma: tensor(0.8532)
+F1 none: tensor([0.8424, 0.8640])
+Running time 1: 155.2028365135193
+
+----------- Evaluating model 2-----------
+
+
+Training stopped on epoch: 13
+Acc: tensor(0.8760)
+F1-ma: tensor(0.8759)
+F1 none: tensor([0.8724, 0.8794])
+Running time 2: 110.28267121315002
+
+----------- Evaluating model 3-----------
+
+
+Training stopped on epoch: 18
+Acc: tensor(0.8630)
+F1-ma: tensor(0.8627)
+F1 none: tensor([0.8563, 0.8691])
+Running time 3: 143.5911159515381
+
+----------- Evaluating model 4-----------
+
+
+Training stopped on epoch: 16
+Acc: tensor(0.8727)
+F1-ma: tensor(0.8726)
+F1 none: tensor([0.8752, 0.8701])
+Running time 4: 124.57398247718811
+
+----------- Evaluating model 5-----------
+
+
+Training stopped on epoch: 15
+Acc: tensor(0.8780)
+F1-ma: tensor(0.8780)
+F1 none: tensor([0.8801, 0.8758])
+Running time 5: 117.6745285987854
+
+----------- Evaluating model 6-----------
+
+
+Training stopped on epoch: 16
+Acc: tensor(0.8660)
+F1-ma: tensor(0.8657)
+F1 none: tensor([0.8597, 0.8717])
+Running time 6: 128.29413080215454
+
+----------- Evaluating model 7-----------
+
+
+Training stopped on epoch: 22
+Acc: tensor(0.8633)
+F1-ma: tensor(0.8633)
+F1 none: tensor([0.8633, 0.8633])
+Running time 7: 161.38413405418396
+
+----------- Evaluating model 8-----------
+
+
+Training stopped on epoch: 17
+Acc: tensor(0.8643)
+F1-ma: tensor(0.8641)
+F1 none: tensor([0.8581, 0.8700])
+Running time 8: 123.21805834770203
+
+----------- Evaluating model 9-----------
+
+
+Training stopped on epoch: 19
+Acc: tensor(0.8720)
+F1-ma: tensor(0.8720)
+F1 none: tensor([0.8709, 0.8731])
+Running time 9: 144.5456771850586
+
+************************************************
+RESULTS FOR N_LAYERS: 3  HIDDEN DIM_FEATURES: 32
+Test Acc: 0.868 -- std: 0.007
+Test F1-macro: 0.868 -- std: 0.007
+Test F1 per class: [0.864 0.871]
+************************************************
+
+
+
+TRAINING MODELS SETTING #LAYERS: 3  HIDDEN DIM: 64
+
+----------- Evaluating model 0-----------
+
+
+Training stopped on epoch: 14
+Acc: tensor(0.8623)
+F1-ma: tensor(0.8622)
+F1 none: tensor([0.8659, 0.8586])
+Running time 0: 103.59220123291016
+
+----------- Evaluating model 1-----------
+
+
+Training stopped on epoch: 14
+Acc: tensor(0.8680)
+F1-ma: tensor(0.8680)
+F1 none: tensor([0.8685, 0.8675])
+Running time 1: 106.74113655090332
+
+----------- Evaluating model 2-----------
+
+
+Training stopped on epoch: 14
+Acc: tensor(0.8597)
+F1-ma: tensor(0.8589)
+F1 none: tensor([0.8487, 0.8691])
+Running time 2: 104.45320773124695
+
+----------- Evaluating model 3-----------
+
+
+Training stopped on epoch: 18
+Acc: tensor(0.8677)
+F1-ma: tensor(0.8674)
+F1 none: tensor([0.8615, 0.8733])
+Running time 3: 129.2345712184906
+
+----------- Evaluating model 4-----------
+
+
+Training stopped on epoch: 13
+Acc: tensor(0.8687)
+F1-ma: tensor(0.8686)
+F1 none: tensor([0.8663, 0.8710])
+Running time 4: 95.24416303634644
+
+----------- Evaluating model 5-----------
+
+
+Training stopped on epoch: 12
+Acc: tensor(0.8690)
+F1-ma: tensor(0.8689)
+F1 none: tensor([0.8724, 0.8655])
+Running time 5: 90.05464577674866
+
+----------- Evaluating model 6-----------
+
+
+Training stopped on epoch: 12
+Acc: tensor(0.8760)
+F1-ma: tensor(0.8760)
+F1 none: tensor([0.8736, 0.8784])
+Running time 6: 90.03810024261475
+
+----------- Evaluating model 7-----------
+
+
+Training stopped on epoch: 14
+Acc: tensor(0.8367)
+F1-ma: tensor(0.8346)
+F1 none: tensor([0.8162, 0.8530])
+Running time 7: 108.72851157188416
+
+----------- Evaluating model 8-----------
+
+
+Training stopped on epoch: 13
+Acc: tensor(0.8647)
+F1-ma: tensor(0.8644)
+F1 none: tensor([0.8587, 0.8701])
+Running time 8: 98.33573961257935
+
+----------- Evaluating model 9-----------
+
+
+Training stopped on epoch: 15
+Acc: tensor(0.8647)
+F1-ma: tensor(0.8642)
+F1 none: tensor([0.8562, 0.8722])
+Running time 9: 110.52573347091675
+
+************************************************
+RESULTS FOR N_LAYERS: 3  HIDDEN DIM_FEATURES: 64
+Test Acc: 0.864 -- std: 0.010
+Test F1-macro: 0.863 -- std: 0.011
+Test F1 per class: [0.859 0.868]
+************************************************
+
+
+
+TRAINING MODELS SETTING #LAYERS: 4  HIDDEN DIM: 16
+
+----------- Evaluating model 0-----------
+
+
+Training stopped on epoch: 17
+Acc: tensor(0.8833)
+F1-ma: tensor(0.8833)
+F1 none: tensor([0.8816, 0.8850])
+Running time 0: 121.6023542881012
+
+----------- Evaluating model 1-----------
+
+
+Training stopped on epoch: 14
+Acc: tensor(0.8607)
+F1-ma: tensor(0.8596)
+F1 none: tensor([0.8473, 0.8719])
+Running time 1: 99.79377627372742
+
+----------- Evaluating model 2-----------
+
+
+Training stopped on epoch: 14
+Acc: tensor(0.8753)
+F1-ma: tensor(0.8750)
+F1 none: tensor([0.8685, 0.8815])
+Running time 2: 101.84520292282104
+
+----------- Evaluating model 3-----------
+
+
+Training stopped on epoch: 13
+Acc: tensor(0.8840)
+F1-ma: tensor(0.8839)
+F1 none: tensor([0.8874, 0.8804])
+Running time 3: 96.03978610038757
+
+----------- Evaluating model 4-----------
+
+
+Training stopped on epoch: 18
+Acc: tensor(0.8760)
+F1-ma: tensor(0.8759)
+F1 none: tensor([0.8727, 0.8791])
+Running time 4: 128.38941144943237
+
+----------- Evaluating model 5-----------
+
+
+Training stopped on epoch: 16
+Acc: tensor(0.8730)
+F1-ma: tensor(0.8728)
+F1 none: tensor([0.8678, 0.8778])
+Running time 5: 119.3669843673706
+
+----------- Evaluating model 6-----------
+
+
+Training stopped on epoch: 25
+Acc: tensor(0.8677)
+F1-ma: tensor(0.8676)
+F1 none: tensor([0.8702, 0.8650])
+Running time 6: 176.8831822872162
+
+----------- Evaluating model 7-----------
+
+
+Training stopped on epoch: 15
+Acc: tensor(0.8787)
+F1-ma: tensor(0.8787)
+F1 none: tensor([0.8790, 0.8783])
+Running time 7: 109.29641032218933
+
+----------- Evaluating model 8-----------
+
+
+Training stopped on epoch: 19
+Acc: tensor(0.8767)
+F1-ma: tensor(0.8766)
+F1 none: tensor([0.8785, 0.8747])
+Running time 8: 134.67955923080444
+
+----------- Evaluating model 9-----------
+
+
+Training stopped on epoch: 24
+Acc: tensor(0.8663)
+F1-ma: tensor(0.8659)
+F1 none: tensor([0.8584, 0.8735])
+Running time 9: 168.13749313354492
+
+************************************************
+RESULTS FOR N_LAYERS: 4  HIDDEN DIM_FEATURES: 16
+Test Acc: 0.874 -- std: 0.007
+Test F1-macro: 0.874 -- std: 0.007
+Test F1 per class: [0.871 0.877]
+************************************************
+
+
+
+TRAINING MODELS SETTING #LAYERS: 4  HIDDEN DIM: 32
+
+----------- Evaluating model 0-----------
+
+
+Training stopped on epoch: 17
+Acc: tensor(0.8683)
+F1-ma: tensor(0.8680)
+F1 none: tensor([0.8611, 0.8749])
+Running time 0: 121.77788424491882
+
+----------- Evaluating model 1-----------
+
+
+Training stopped on epoch: 16
+Acc: tensor(0.8803)
+F1-ma: tensor(0.8803)
+F1 none: tensor([0.8827, 0.8778])
+Running time 1: 123.25468564033508
+
+----------- Evaluating model 2-----------
+
+
+Training stopped on epoch: 15
+Acc: tensor(0.8700)
+F1-ma: tensor(0.8698)
+F1 none: tensor([0.8753, 0.8642])
+Running time 2: 111.43082571029663
+
+----------- Evaluating model 3-----------
+
+
+Training stopped on epoch: 15
+Acc: tensor(0.8637)
+F1-ma: tensor(0.8633)
+F1 none: tensor([0.8558, 0.8707])
+Running time 3: 109.28295731544495
+
+----------- Evaluating model 4-----------
+
+
+Training stopped on epoch: 14
+Acc: tensor(0.8650)
+F1-ma: tensor(0.8646)
+F1 none: tensor([0.8573, 0.8719])
+Running time 4: 104.08967280387878
+
+----------- Evaluating model 5-----------
+
+
+Training stopped on epoch: 15
+Acc: tensor(0.8640)
+F1-ma: tensor(0.8632)
+F1 none: tensor([0.8530, 0.8734])
+Running time 5: 110.11683988571167
+
+----------- Evaluating model 6-----------
+
+
+Training stopped on epoch: 19
+Acc: tensor(0.8523)
+F1-ma: tensor(0.8514)
+F1 none: tensor([0.8394, 0.8633])
+Running time 6: 135.66372752189636
+
+----------- Evaluating model 7-----------
+
+
+Training stopped on epoch: 17
+Acc: tensor(0.8710)
+F1-ma: tensor(0.8708)
+F1 none: tensor([0.8658, 0.8758])
+Running time 7: 123.49759984016418
+
+----------- Evaluating model 8-----------
+
+
+Training stopped on epoch: 21
+Acc: tensor(0.8650)
+F1-ma: tensor(0.8644)
+F1 none: tensor([0.8554, 0.8734])
+Running time 8: 150.8969132900238
+
+----------- Evaluating model 9-----------
+
+
+Training stopped on epoch: 14
+Acc: tensor(0.8747)
+F1-ma: tensor(0.8745)
+F1 none: tensor([0.8704, 0.8786])
+Running time 9: 107.22949504852295
+
+************************************************
+RESULTS FOR N_LAYERS: 4  HIDDEN DIM_FEATURES: 32
+Test Acc: 0.867 -- std: 0.007
+Test F1-macro: 0.867 -- std: 0.007
+Test F1 per class: [0.862 0.872]
+************************************************
+
+
+
+TRAINING MODELS SETTING #LAYERS: 4  HIDDEN DIM: 64
+
+----------- Evaluating model 0-----------
+
+
+Training stopped on epoch: 11
+Acc: tensor(0.8673)
+F1-ma: tensor(0.8671)
+F1 none: tensor([0.8609, 0.8732])
+Running time 0: 86.54344940185547
+
+----------- Evaluating model 1-----------
+
+
+Training stopped on epoch: 13
+Acc: tensor(0.8723)
+F1-ma: tensor(0.8723)
+F1 none: tensor([0.8702, 0.8744])
+Running time 1: 98.58199620246887
+
+----------- Evaluating model 2-----------
+
+
+Training stopped on epoch: 16
+Acc: tensor(0.8650)
+F1-ma: tensor(0.8649)
+F1 none: tensor([0.8614, 0.8684])
+Running time 2: 116.66148972511292
+
+----------- Evaluating model 3-----------
+
+
+Training stopped on epoch: 14
+Acc: tensor(0.8763)
+F1-ma: tensor(0.8763)
+F1 none: tensor([0.8760, 0.8767])
+Running time 3: 104.29723334312439
+
+----------- Evaluating model 4-----------
+
+
+Training stopped on epoch: 12
+Acc: tensor(0.8713)
+F1-ma: tensor(0.8713)
+F1 none: tensor([0.8743, 0.8682])
+Running time 4: 90.92606329917908
+
+----------- Evaluating model 5-----------
+
+
+Training stopped on epoch: 13
+Acc: tensor(0.8657)
+F1-ma: tensor(0.8656)
+F1 none: tensor([0.8634, 0.8678])
+Running time 5: 97.25201296806335
+
+----------- Evaluating model 6-----------
+
+
+Training stopped on epoch: 14
+Acc: tensor(0.8737)
+F1-ma: tensor(0.8736)
+F1 none: tensor([0.8771, 0.8701])
+Running time 6: 108.45011687278748
+
+----------- Evaluating model 7-----------
+
+
+Training stopped on epoch: 17
+Acc: tensor(0.8570)
+F1-ma: tensor(0.8563)
+F1 none: tensor([0.8462, 0.8664])
+Running time 7: 129.84705185890198
+
+----------- Evaluating model 8-----------
+
+
+Training stopped on epoch: 16
+Acc: tensor(0.8683)
+F1-ma: tensor(0.8683)
+F1 none: tensor([0.8666, 0.8700])
+Running time 8: 118.5723557472229
+
+----------- Evaluating model 9-----------
+
+
+Training stopped on epoch: 11
+Acc: tensor(0.8587)
+F1-ma: tensor(0.8576)
+F1 none: tensor([0.8450, 0.8701])
+Running time 9: 85.45573425292969
+
+************************************************
+RESULTS FOR N_LAYERS: 4  HIDDEN DIM_FEATURES: 64
+Test Acc: 0.868 -- std: 0.006
+Test F1-macro: 0.867 -- std: 0.006
+Test F1 per class: [0.864 0.871]
+************************************************
+
+

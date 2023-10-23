@@ -1,0 +1,29 @@
+input_dir_folder: /home/mbugueno/TC_graphs/Data_Graphs/data_bbc_prep/1.C/
+output_dir_folder: /home/mbugueno/
+results_dir_folder: /home/mbugueno/copia_graph-based_TR/graph-based_TR/IntuitiveGraphs/Results/
+
+filename: BBC_graphs_C
+
+dataset: bbc
+
+num_classes: 5
+
+pre_trained_embedding: None
+
+pre_file: WANDB_ 
+
+node_feature_init: BERT
+
+training: 
+    batch_size: 16
+    max_epochs: 100
+    dropout: 0.2
+    lr: 0.001
+    
+experiment: 
+  runs: 1 
+  patience: 2
+  type_model: GAT
+  num_layers: 2
+  hidden_dims: 64
+  

@@ -1,0 +1,972 @@
+
+TRAINING MODELS SETTING #LAYERS: 1  HIDDEN DIM: 16
+
+----------- Evaluating model 0-----------
+
+Acc: tensor(0.9393)
+F1-ma: tensor(0.9364)
+F1 none: tensor([0.9907, 0.9388, 0.9050, 0.9128, 0.9347])
+Running time 0: 276.30796694755554
+
+----------- Evaluating model 1-----------
+
+Acc: tensor(0.9393)
+F1-ma: tensor(0.9364)
+F1 none: tensor([0.9907, 0.9388, 0.9050, 0.9128, 0.9347])
+Running time 1: 270.470933675766
+
+----------- Evaluating model 2-----------
+
+Acc: tensor(0.9393)
+F1-ma: tensor(0.9364)
+F1 none: tensor([0.9907, 0.9388, 0.9050, 0.9128, 0.9347])
+Running time 2: 266.2728111743927
+
+----------- Evaluating model 3-----------
+
+Acc: tensor(0.9393)
+F1-ma: tensor(0.9364)
+F1 none: tensor([0.9907, 0.9388, 0.9050, 0.9128, 0.9347])
+Running time 3: 264.3940782546997
+
+----------- Evaluating model 4-----------
+
+Acc: tensor(0.9393)
+F1-ma: tensor(0.9364)
+F1 none: tensor([0.9907, 0.9388, 0.9050, 0.9128, 0.9347])
+Running time 4: 265.38584065437317
+
+----------- Evaluating model 5-----------
+
+Acc: tensor(0.9393)
+F1-ma: tensor(0.9364)
+F1 none: tensor([0.9907, 0.9388, 0.9050, 0.9128, 0.9347])
+Running time 5: 275.15785479545593
+
+----------- Evaluating model 6-----------
+
+Acc: tensor(0.9393)
+F1-ma: tensor(0.9364)
+F1 none: tensor([0.9907, 0.9388, 0.9050, 0.9128, 0.9347])
+Running time 6: 280.50634264945984
+
+----------- Evaluating model 7-----------
+
+Acc: tensor(0.9393)
+F1-ma: tensor(0.9364)
+F1 none: tensor([0.9907, 0.9388, 0.9050, 0.9128, 0.9347])
+Running time 7: 287.01811051368713
+
+----------- Evaluating model 8-----------
+
+Acc: tensor(0.9393)
+F1-ma: tensor(0.9364)
+F1 none: tensor([0.9907, 0.9388, 0.9050, 0.9128, 0.9347])
+Running time 8: 280.00236654281616
+
+----------- Evaluating model 9-----------
+
+Acc: tensor(0.9393)
+F1-ma: tensor(0.9364)
+F1 none: tensor([0.9907, 0.9388, 0.9050, 0.9128, 0.9347])
+Running time 9: 281.1616494655609
+
+************************************************
+RESULTS FOR N_LAYERS: 1  HIDDEN DIM_FEATURES: 16
+Test Acc: 0.939 -- std: 0.000
+Test F1-macro: 0.936 -- std: 0.000
+Test F1 per class: [0.991 0.939 0.905 0.913 0.935]
+************************************************
+
+
+
+TRAINING MODELS SETTING #LAYERS: 2  HIDDEN DIM: 16
+
+----------- Evaluating model 0-----------
+
+Acc: tensor(0.9303)
+F1-ma: tensor(0.9279)
+F1 none: tensor([0.9817, 0.9315, 0.8840, 0.9178, 0.9246])
+Running time 0: 198.4667420387268
+
+----------- Evaluating model 1-----------
+
+Acc: tensor(0.9303)
+F1-ma: tensor(0.9279)
+F1 none: tensor([0.9817, 0.9315, 0.8840, 0.9178, 0.9246])
+Running time 1: 201.41326570510864
+
+----------- Evaluating model 2-----------
+
+Acc: tensor(0.9303)
+F1-ma: tensor(0.9279)
+F1 none: tensor([0.9817, 0.9315, 0.8840, 0.9178, 0.9246])
+Running time 2: 196.4608552455902
+
+----------- Evaluating model 3-----------
+
+Acc: tensor(0.9303)
+F1-ma: tensor(0.9279)
+F1 none: tensor([0.9817, 0.9315, 0.8840, 0.9178, 0.9246])
+Running time 3: 194.80104541778564
+
+----------- Evaluating model 4-----------
+
+Acc: tensor(0.9303)
+F1-ma: tensor(0.9279)
+F1 none: tensor([0.9817, 0.9315, 0.8840, 0.9178, 0.9246])
+Running time 4: 198.9126672744751
+
+----------- Evaluating model 5-----------
+
+Acc: tensor(0.9303)
+F1-ma: tensor(0.9279)
+F1 none: tensor([0.9817, 0.9315, 0.8840, 0.9178, 0.9246])
+Running time 5: 190.2700333595276
+
+----------- Evaluating model 6-----------
+
+Acc: tensor(0.9303)
+F1-ma: tensor(0.9279)
+F1 none: tensor([0.9817, 0.9315, 0.8840, 0.9178, 0.9246])
+Running time 6: 191.50572729110718
+
+----------- Evaluating model 7-----------
+
+Acc: tensor(0.9303)
+F1-ma: tensor(0.9279)
+F1 none: tensor([0.9817, 0.9315, 0.8840, 0.9178, 0.9246])
+Running time 7: 191.45203804969788
+
+----------- Evaluating model 8-----------
+
+Acc: tensor(0.9303)
+F1-ma: tensor(0.9279)
+F1 none: tensor([0.9817, 0.9315, 0.8840, 0.9178, 0.9246])
+Running time 8: 190.74127888679504
+
+----------- Evaluating model 9-----------
+
+Acc: tensor(0.9303)
+F1-ma: tensor(0.9279)
+F1 none: tensor([0.9817, 0.9315, 0.8840, 0.9178, 0.9246])
+Running time 9: 192.42180967330933
+
+************************************************
+RESULTS FOR N_LAYERS: 2  HIDDEN DIM_FEATURES: 16
+Test Acc: 0.930 -- std: 0.000
+Test F1-macro: 0.928 -- std: 0.000
+Test F1 per class: [0.982 0.932 0.884 0.918 0.925]
+************************************************
+
+
+
+TRAINING MODELS SETTING #LAYERS: 3  HIDDEN DIM: 16
+
+----------- Evaluating model 0-----------
+
+Acc: tensor(0.9326)
+F1-ma: tensor(0.9287)
+F1 none: tensor([0.9863, 0.9241, 0.9205, 0.8919, 0.9208])
+Running time 0: 151.91902494430542
+
+----------- Evaluating model 1-----------
+
+Acc: tensor(0.9326)
+F1-ma: tensor(0.9287)
+F1 none: tensor([0.9863, 0.9241, 0.9205, 0.8919, 0.9208])
+Running time 1: 151.42248678207397
+
+----------- Evaluating model 2-----------
+
+Acc: tensor(0.9326)
+F1-ma: tensor(0.9287)
+F1 none: tensor([0.9863, 0.9241, 0.9205, 0.8919, 0.9208])
+Running time 2: 160.01905226707458
+
+----------- Evaluating model 3-----------
+
+Acc: tensor(0.9326)
+F1-ma: tensor(0.9287)
+F1 none: tensor([0.9863, 0.9241, 0.9205, 0.8919, 0.9208])
+Running time 3: 153.41523385047913
+
+----------- Evaluating model 4-----------
+
+Acc: tensor(0.9326)
+F1-ma: tensor(0.9287)
+F1 none: tensor([0.9863, 0.9241, 0.9205, 0.8919, 0.9208])
+Running time 4: 149.83203172683716
+
+----------- Evaluating model 5-----------
+
+Acc: tensor(0.9326)
+F1-ma: tensor(0.9287)
+F1 none: tensor([0.9863, 0.9241, 0.9205, 0.8919, 0.9208])
+Running time 5: 152.25595211982727
+
+----------- Evaluating model 6-----------
+
+Acc: tensor(0.9326)
+F1-ma: tensor(0.9287)
+F1 none: tensor([0.9863, 0.9241, 0.9205, 0.8919, 0.9208])
+Running time 6: 151.97179007530212
+
+----------- Evaluating model 7-----------
+
+Acc: tensor(0.9326)
+F1-ma: tensor(0.9287)
+F1 none: tensor([0.9863, 0.9241, 0.9205, 0.8919, 0.9208])
+Running time 7: 151.60597467422485
+
+----------- Evaluating model 8-----------
+
+Acc: tensor(0.9326)
+F1-ma: tensor(0.9287)
+F1 none: tensor([0.9863, 0.9241, 0.9205, 0.8919, 0.9208])
+Running time 8: 153.3760471343994
+
+----------- Evaluating model 9-----------
+
+Acc: tensor(0.9326)
+F1-ma: tensor(0.9287)
+F1 none: tensor([0.9863, 0.9241, 0.9205, 0.8919, 0.9208])
+Running time 9: 151.8842761516571
+
+************************************************
+RESULTS FOR N_LAYERS: 3  HIDDEN DIM_FEATURES: 16
+Test Acc: 0.933 -- std: 0.000
+Test F1-macro: 0.929 -- std: 0.000
+Test F1 per class: [0.986 0.924 0.92  0.892 0.921]
+************************************************
+
+
+
+TRAINING MODELS SETTING #LAYERS: 4  HIDDEN DIM: 16
+
+----------- Evaluating model 0-----------
+
+Acc: tensor(0.8966)
+F1-ma: tensor(0.8933)
+F1 none: tensor([0.9545, 0.9128, 0.8778, 0.8477, 0.8737])
+Running time 0: 162.98486995697021
+
+----------- Evaluating model 1-----------
+
+Acc: tensor(0.8966)
+F1-ma: tensor(0.8933)
+F1 none: tensor([0.9545, 0.9128, 0.8778, 0.8477, 0.8737])
+Running time 1: 164.38715052604675
+
+----------- Evaluating model 2-----------
+
+Acc: tensor(0.8966)
+F1-ma: tensor(0.8933)
+F1 none: tensor([0.9545, 0.9128, 0.8778, 0.8477, 0.8737])
+Running time 2: 172.25057649612427
+
+----------- Evaluating model 3-----------
+
+Acc: tensor(0.8966)
+F1-ma: tensor(0.8933)
+F1 none: tensor([0.9545, 0.9128, 0.8778, 0.8477, 0.8737])
+Running time 3: 162.173978805542
+
+----------- Evaluating model 4-----------
+
+Acc: tensor(0.8966)
+F1-ma: tensor(0.8933)
+F1 none: tensor([0.9545, 0.9128, 0.8778, 0.8477, 0.8737])
+Running time 4: 167.0722200870514
+
+----------- Evaluating model 5-----------
+
+Acc: tensor(0.8966)
+F1-ma: tensor(0.8933)
+F1 none: tensor([0.9545, 0.9128, 0.8778, 0.8477, 0.8737])
+Running time 5: 171.94776511192322
+
+----------- Evaluating model 6-----------
+
+Acc: tensor(0.8966)
+F1-ma: tensor(0.8933)
+F1 none: tensor([0.9545, 0.9128, 0.8778, 0.8477, 0.8737])
+Running time 6: 172.1619508266449
+
+----------- Evaluating model 7-----------
+
+Acc: tensor(0.8966)
+F1-ma: tensor(0.8933)
+F1 none: tensor([0.9545, 0.9128, 0.8778, 0.8477, 0.8737])
+Running time 7: 171.6824791431427
+
+----------- Evaluating model 8-----------
+
+Acc: tensor(0.8966)
+F1-ma: tensor(0.8933)
+F1 none: tensor([0.9545, 0.9128, 0.8778, 0.8477, 0.8737])
+Running time 8: 170.78766179084778
+
+----------- Evaluating model 9-----------
+
+Acc: tensor(0.8966)
+F1-ma: tensor(0.8933)
+F1 none: tensor([0.9545, 0.9128, 0.8778, 0.8477, 0.8737])
+Running time 9: 169.2898986339569
+
+************************************************
+RESULTS FOR N_LAYERS: 4  HIDDEN DIM_FEATURES: 16
+Test Acc: 0.897 -- std: 0.000
+Test F1-macro: 0.893 -- std: 0.000
+Test F1 per class: [0.955 0.913 0.878 0.848 0.874]
+************************************************
+
+
+
+TRAINING MODELS SETTING #LAYERS: 1  HIDDEN DIM: 32
+
+----------- Evaluating model 0-----------
+
+Acc: tensor(0.9326)
+F1-ma: tensor(0.9298)
+F1 none: tensor([0.9907, 0.9379, 0.9091, 0.8993, 0.9118])
+Running time 0: 183.32659316062927
+
+----------- Evaluating model 1-----------
+
+Acc: tensor(0.9326)
+F1-ma: tensor(0.9298)
+F1 none: tensor([0.9907, 0.9379, 0.9091, 0.8993, 0.9118])
+Running time 1: 191.1008803844452
+
+----------- Evaluating model 2-----------
+
+Acc: tensor(0.9326)
+F1-ma: tensor(0.9298)
+F1 none: tensor([0.9907, 0.9379, 0.9091, 0.8993, 0.9118])
+Running time 2: 182.19455671310425
+
+----------- Evaluating model 3-----------
+
+Acc: tensor(0.9326)
+F1-ma: tensor(0.9298)
+F1 none: tensor([0.9907, 0.9379, 0.9091, 0.8993, 0.9118])
+Running time 3: 181.22563982009888
+
+----------- Evaluating model 4-----------
+
+Acc: tensor(0.9326)
+F1-ma: tensor(0.9298)
+F1 none: tensor([0.9907, 0.9379, 0.9091, 0.8993, 0.9118])
+Running time 4: 177.86742329597473
+
+----------- Evaluating model 5-----------
+
+Acc: tensor(0.9326)
+F1-ma: tensor(0.9298)
+F1 none: tensor([0.9907, 0.9379, 0.9091, 0.8993, 0.9118])
+Running time 5: 175.84431385993958
+
+----------- Evaluating model 6-----------
+
+Acc: tensor(0.9326)
+F1-ma: tensor(0.9298)
+F1 none: tensor([0.9907, 0.9379, 0.9091, 0.8993, 0.9118])
+Running time 6: 174.01681423187256
+
+----------- Evaluating model 7-----------
+
+Acc: tensor(0.9326)
+F1-ma: tensor(0.9298)
+F1 none: tensor([0.9907, 0.9379, 0.9091, 0.8993, 0.9118])
+Running time 7: 172.40799021720886
+
+----------- Evaluating model 8-----------
+
+Acc: tensor(0.9326)
+F1-ma: tensor(0.9298)
+F1 none: tensor([0.9907, 0.9379, 0.9091, 0.8993, 0.9118])
+Running time 8: 172.3811390399933
+
+----------- Evaluating model 9-----------
+
+Acc: tensor(0.9326)
+F1-ma: tensor(0.9298)
+F1 none: tensor([0.9907, 0.9379, 0.9091, 0.8993, 0.9118])
+Running time 9: 173.0461883544922
+
+************************************************
+RESULTS FOR N_LAYERS: 1  HIDDEN DIM_FEATURES: 32
+Test Acc: 0.933 -- std: 0.000
+Test F1-macro: 0.930 -- std: 0.000
+Test F1 per class: [0.991 0.938 0.909 0.899 0.912]
+************************************************
+
+
+
+TRAINING MODELS SETTING #LAYERS: 2  HIDDEN DIM: 32
+
+----------- Evaluating model 0-----------
+
+Acc: tensor(0.9326)
+F1-ma: tensor(0.9309)
+F1 none: tensor([0.9860, 0.9459, 0.8901, 0.9178, 0.9146])
+Running time 0: 151.173485994339
+
+----------- Evaluating model 1-----------
+
+Acc: tensor(0.9326)
+F1-ma: tensor(0.9309)
+F1 none: tensor([0.9860, 0.9459, 0.8901, 0.9178, 0.9146])
+Running time 1: 144.6049952507019
+
+----------- Evaluating model 2-----------
+
+Acc: tensor(0.9326)
+F1-ma: tensor(0.9309)
+F1 none: tensor([0.9860, 0.9459, 0.8901, 0.9178, 0.9146])
+Running time 2: 143.79487109184265
+
+----------- Evaluating model 3-----------
+
+Acc: tensor(0.9326)
+F1-ma: tensor(0.9309)
+F1 none: tensor([0.9860, 0.9459, 0.8901, 0.9178, 0.9146])
+Running time 3: 143.38115882873535
+
+----------- Evaluating model 4-----------
+
+Acc: tensor(0.9326)
+F1-ma: tensor(0.9309)
+F1 none: tensor([0.9860, 0.9459, 0.8901, 0.9178, 0.9146])
+Running time 4: 144.58044719696045
+
+----------- Evaluating model 5-----------
+
+Acc: tensor(0.9326)
+F1-ma: tensor(0.9309)
+F1 none: tensor([0.9860, 0.9459, 0.8901, 0.9178, 0.9146])
+Running time 5: 145.39642667770386
+
+----------- Evaluating model 6-----------
+
+Acc: tensor(0.9326)
+F1-ma: tensor(0.9309)
+F1 none: tensor([0.9860, 0.9459, 0.8901, 0.9178, 0.9146])
+Running time 6: 145.54130363464355
+
+----------- Evaluating model 7-----------
+
+Acc: tensor(0.9326)
+F1-ma: tensor(0.9309)
+F1 none: tensor([0.9860, 0.9459, 0.8901, 0.9178, 0.9146])
+Running time 7: 146.62633299827576
+
+----------- Evaluating model 8-----------
+
+Acc: tensor(0.9326)
+F1-ma: tensor(0.9309)
+F1 none: tensor([0.9860, 0.9459, 0.8901, 0.9178, 0.9146])
+Running time 8: 143.73599886894226
+
+----------- Evaluating model 9-----------
+
+Acc: tensor(0.9326)
+F1-ma: tensor(0.9309)
+F1 none: tensor([0.9860, 0.9459, 0.8901, 0.9178, 0.9146])
+Running time 9: 145.99886655807495
+
+************************************************
+RESULTS FOR N_LAYERS: 2  HIDDEN DIM_FEATURES: 32
+Test Acc: 0.933 -- std: 0.000
+Test F1-macro: 0.931 -- std: 0.000
+Test F1 per class: [0.986 0.946 0.89  0.918 0.915]
+************************************************
+
+
+
+TRAINING MODELS SETTING #LAYERS: 3  HIDDEN DIM: 32
+
+----------- Evaluating model 0-----------
+
+Acc: tensor(0.9438)
+F1-ma: tensor(0.9408)
+F1 none: tensor([1.0000, 0.9412, 0.9266, 0.9178, 0.9184])
+Running time 0: 156.16359853744507
+
+----------- Evaluating model 1-----------
+
+Acc: tensor(0.9438)
+F1-ma: tensor(0.9408)
+F1 none: tensor([1.0000, 0.9412, 0.9266, 0.9178, 0.9184])
+Running time 1: 165.86203408241272
+
+----------- Evaluating model 2-----------
+
+Acc: tensor(0.9438)
+F1-ma: tensor(0.9408)
+F1 none: tensor([1.0000, 0.9412, 0.9266, 0.9178, 0.9184])
+Running time 2: 156.77987575531006
+
+----------- Evaluating model 3-----------
+
+Acc: tensor(0.9438)
+F1-ma: tensor(0.9408)
+F1 none: tensor([1.0000, 0.9412, 0.9266, 0.9178, 0.9184])
+Running time 3: 158.0724802017212
+
+----------- Evaluating model 4-----------
+
+Acc: tensor(0.9438)
+F1-ma: tensor(0.9408)
+F1 none: tensor([1.0000, 0.9412, 0.9266, 0.9178, 0.9184])
+Running time 4: 157.21397256851196
+
+----------- Evaluating model 5-----------
+
+Acc: tensor(0.9438)
+F1-ma: tensor(0.9408)
+F1 none: tensor([1.0000, 0.9412, 0.9266, 0.9178, 0.9184])
+Running time 5: 157.39580607414246
+
+----------- Evaluating model 6-----------
+
+Acc: tensor(0.9438)
+F1-ma: tensor(0.9408)
+F1 none: tensor([1.0000, 0.9412, 0.9266, 0.9178, 0.9184])
+Running time 6: 157.1906328201294
+
+----------- Evaluating model 7-----------
+
+Acc: tensor(0.9438)
+F1-ma: tensor(0.9408)
+F1 none: tensor([1.0000, 0.9412, 0.9266, 0.9178, 0.9184])
+Running time 7: 157.7487850189209
+
+----------- Evaluating model 8-----------
+
+Acc: tensor(0.9438)
+F1-ma: tensor(0.9408)
+F1 none: tensor([1.0000, 0.9412, 0.9266, 0.9178, 0.9184])
+Running time 8: 160.72131419181824
+
+----------- Evaluating model 9-----------
+
+Acc: tensor(0.9438)
+F1-ma: tensor(0.9408)
+F1 none: tensor([1.0000, 0.9412, 0.9266, 0.9178, 0.9184])
+Running time 9: 162.0752363204956
+
+************************************************
+RESULTS FOR N_LAYERS: 3  HIDDEN DIM_FEATURES: 32
+Test Acc: 0.944 -- std: 0.000
+Test F1-macro: 0.941 -- std: 0.000
+Test F1 per class: [1.    0.941 0.927 0.918 0.918]
+************************************************
+
+
+
+TRAINING MODELS SETTING #LAYERS: 4  HIDDEN DIM: 32
+
+----------- Evaluating model 0-----------
+
+Acc: tensor(0.9618)
+F1-ma: tensor(0.9606)
+F1 none: tensor([0.9954, 0.9664, 0.9318, 0.9595, 0.9500])
+Running time 0: 224.2156913280487
+
+----------- Evaluating model 1-----------
+
+Acc: tensor(0.9618)
+F1-ma: tensor(0.9606)
+F1 none: tensor([0.9954, 0.9664, 0.9318, 0.9595, 0.9500])
+Running time 1: 218.33460927009583
+
+----------- Evaluating model 2-----------
+
+Acc: tensor(0.9506)
+F1-ma: tensor(0.9496)
+F1 none: tensor([0.9860, 0.9600, 0.9121, 0.9467, 0.9430])
+Running time 2: 218.3873906135559
+
+----------- Evaluating model 3-----------
+
+Acc: tensor(0.9618)
+F1-ma: tensor(0.9606)
+F1 none: tensor([0.9954, 0.9664, 0.9318, 0.9595, 0.9500])
+Running time 3: 215.6959228515625
+
+----------- Evaluating model 4-----------
+
+Acc: tensor(0.9618)
+F1-ma: tensor(0.9606)
+F1 none: tensor([0.9954, 0.9664, 0.9318, 0.9595, 0.9500])
+Running time 4: 214.9082534313202
+
+----------- Evaluating model 5-----------
+
+Acc: tensor(0.9618)
+F1-ma: tensor(0.9606)
+F1 none: tensor([0.9954, 0.9664, 0.9318, 0.9595, 0.9500])
+Running time 5: 213.4276487827301
+
+----------- Evaluating model 6-----------
+
+Acc: tensor(0.9618)
+F1-ma: tensor(0.9606)
+F1 none: tensor([0.9954, 0.9664, 0.9318, 0.9595, 0.9500])
+Running time 6: 213.0885739326477
+
+----------- Evaluating model 7-----------
+
+Acc: tensor(0.9618)
+F1-ma: tensor(0.9606)
+F1 none: tensor([0.9954, 0.9664, 0.9318, 0.9595, 0.9500])
+Running time 7: 211.97711873054504
+
+----------- Evaluating model 8-----------
+
+Acc: tensor(0.9618)
+F1-ma: tensor(0.9606)
+F1 none: tensor([0.9954, 0.9664, 0.9318, 0.9595, 0.9500])
+Running time 8: 218.34292364120483
+
+----------- Evaluating model 9-----------
+
+Acc: tensor(0.9618)
+F1-ma: tensor(0.9606)
+F1 none: tensor([0.9954, 0.9664, 0.9318, 0.9595, 0.9500])
+Running time 9: 205.0785892009735
+
+************************************************
+RESULTS FOR N_LAYERS: 4  HIDDEN DIM_FEATURES: 32
+Test Acc: 0.961 -- std: 0.003
+Test F1-macro: 0.960 -- std: 0.003
+Test F1 per class: [0.994 0.966 0.93  0.958 0.949]
+************************************************
+
+
+
+TRAINING MODELS SETTING #LAYERS: 1  HIDDEN DIM: 64
+
+----------- Evaluating model 0-----------
+
+Acc: tensor(0.9416)
+F1-ma: tensor(0.9391)
+F1 none: tensor([0.9954, 0.9524, 0.9050, 0.9139, 0.9286])
+Running time 0: 235.6749210357666
+
+----------- Evaluating model 1-----------
+
+Acc: tensor(0.9416)
+F1-ma: tensor(0.9391)
+F1 none: tensor([0.9954, 0.9524, 0.9050, 0.9139, 0.9286])
+Running time 1: 235.81530857086182
+
+----------- Evaluating model 2-----------
+
+Acc: tensor(0.9416)
+F1-ma: tensor(0.9391)
+F1 none: tensor([0.9954, 0.9524, 0.9050, 0.9139, 0.9286])
+Running time 2: 235.51604390144348
+
+----------- Evaluating model 3-----------
+
+Acc: tensor(0.9416)
+F1-ma: tensor(0.9391)
+F1 none: tensor([0.9954, 0.9524, 0.9050, 0.9139, 0.9286])
+Running time 3: 235.1635937690735
+
+----------- Evaluating model 4-----------
+
+Acc: tensor(0.9416)
+F1-ma: tensor(0.9391)
+F1 none: tensor([0.9954, 0.9524, 0.9050, 0.9139, 0.9286])
+Running time 4: 235.70082664489746
+
+----------- Evaluating model 5-----------
+
+Acc: tensor(0.9416)
+F1-ma: tensor(0.9391)
+F1 none: tensor([0.9954, 0.9524, 0.9050, 0.9139, 0.9286])
+Running time 5: 243.57321858406067
+
+----------- Evaluating model 6-----------
+
+Acc: tensor(0.9416)
+F1-ma: tensor(0.9391)
+F1 none: tensor([0.9954, 0.9524, 0.9050, 0.9139, 0.9286])
+Running time 6: 235.9226939678192
+
+----------- Evaluating model 7-----------
+
+Acc: tensor(0.9416)
+F1-ma: tensor(0.9391)
+F1 none: tensor([0.9954, 0.9524, 0.9050, 0.9139, 0.9286])
+Running time 7: 235.93385076522827
+
+----------- Evaluating model 8-----------
+
+Acc: tensor(0.9416)
+F1-ma: tensor(0.9391)
+F1 none: tensor([0.9954, 0.9524, 0.9050, 0.9139, 0.9286])
+Running time 8: 234.5137231349945
+
+----------- Evaluating model 9-----------
+
+Acc: tensor(0.9416)
+F1-ma: tensor(0.9391)
+F1 none: tensor([0.9954, 0.9524, 0.9050, 0.9139, 0.9286])
+Running time 9: 234.76118993759155
+
+************************************************
+RESULTS FOR N_LAYERS: 1  HIDDEN DIM_FEATURES: 64
+Test Acc: 0.942 -- std: 0.000
+Test F1-macro: 0.939 -- std: 0.000
+Test F1 per class: [0.995 0.952 0.905 0.914 0.929]
+************************************************
+
+
+
+TRAINING MODELS SETTING #LAYERS: 2  HIDDEN DIM: 64
+
+----------- Evaluating model 0-----------
+
+Acc: tensor(0.9663)
+F1-ma: tensor(0.9641)
+F1 none: tensor([1.0000, 0.9664, 0.9486, 0.9452, 0.9604])
+Running time 0: 169.04789972305298
+
+----------- Evaluating model 1-----------
+
+Acc: tensor(0.9663)
+F1-ma: tensor(0.9641)
+F1 none: tensor([1.0000, 0.9664, 0.9486, 0.9452, 0.9604])
+Running time 1: 167.5037727355957
+
+----------- Evaluating model 2-----------
+
+Acc: tensor(0.9663)
+F1-ma: tensor(0.9641)
+F1 none: tensor([1.0000, 0.9664, 0.9486, 0.9452, 0.9604])
+Running time 2: 166.48671650886536
+
+----------- Evaluating model 3-----------
+
+Acc: tensor(0.9663)
+F1-ma: tensor(0.9641)
+F1 none: tensor([1.0000, 0.9664, 0.9486, 0.9452, 0.9604])
+Running time 3: 178.20156478881836
+
+----------- Evaluating model 4-----------
+
+Acc: tensor(0.9663)
+F1-ma: tensor(0.9641)
+F1 none: tensor([1.0000, 0.9664, 0.9486, 0.9452, 0.9604])
+Running time 4: 168.15706205368042
+
+----------- Evaluating model 5-----------
+
+Acc: tensor(0.9663)
+F1-ma: tensor(0.9641)
+F1 none: tensor([1.0000, 0.9664, 0.9486, 0.9452, 0.9604])
+Running time 5: 172.4391028881073
+
+----------- Evaluating model 6-----------
+
+Acc: tensor(0.9663)
+F1-ma: tensor(0.9641)
+F1 none: tensor([1.0000, 0.9664, 0.9486, 0.9452, 0.9604])
+Running time 6: 173.13862204551697
+
+----------- Evaluating model 7-----------
+
+Acc: tensor(0.9663)
+F1-ma: tensor(0.9641)
+F1 none: tensor([1.0000, 0.9664, 0.9486, 0.9452, 0.9604])
+Running time 7: 177.15999746322632
+
+----------- Evaluating model 8-----------
+
+Acc: tensor(0.9663)
+F1-ma: tensor(0.9641)
+F1 none: tensor([1.0000, 0.9664, 0.9486, 0.9452, 0.9604])
+Running time 8: 174.9926941394806
+
+----------- Evaluating model 9-----------
+
+Acc: tensor(0.9663)
+F1-ma: tensor(0.9641)
+F1 none: tensor([1.0000, 0.9664, 0.9486, 0.9452, 0.9604])
+Running time 9: 174.810448884964
+
+************************************************
+RESULTS FOR N_LAYERS: 2  HIDDEN DIM_FEATURES: 64
+Test Acc: 0.966 -- std: 0.000
+Test F1-macro: 0.964 -- std: 0.000
+Test F1 per class: [1.    0.966 0.949 0.945 0.96 ]
+************************************************
+
+
+
+TRAINING MODELS SETTING #LAYERS: 3  HIDDEN DIM: 64
+
+----------- Evaluating model 0-----------
+
+Acc: tensor(0.9708)
+F1-ma: tensor(0.9691)
+F1 none: tensor([0.9954, 0.9737, 0.9545, 0.9524, 0.9697])
+Running time 0: 202.27833700180054
+
+----------- Evaluating model 1-----------
+
+Acc: tensor(0.9708)
+F1-ma: tensor(0.9691)
+F1 none: tensor([0.9954, 0.9737, 0.9545, 0.9524, 0.9697])
+Running time 1: 198.81418013572693
+
+----------- Evaluating model 2-----------
+
+Acc: tensor(0.9708)
+F1-ma: tensor(0.9691)
+F1 none: tensor([0.9954, 0.9737, 0.9545, 0.9524, 0.9697])
+Running time 2: 210.4688801765442
+
+----------- Evaluating model 3-----------
+
+Acc: tensor(0.9708)
+F1-ma: tensor(0.9691)
+F1 none: tensor([0.9954, 0.9737, 0.9545, 0.9524, 0.9697])
+Running time 3: 203.12539315223694
+
+----------- Evaluating model 4-----------
+
+Acc: tensor(0.9528)
+F1-ma: tensor(0.9526)
+F1 none: tensor([0.9907, 0.9804, 0.9081, 0.9510, 0.9326])
+Running time 4: 159.16130542755127
+
+----------- Evaluating model 5-----------
+
+Acc: tensor(0.9708)
+F1-ma: tensor(0.9691)
+F1 none: tensor([0.9954, 0.9737, 0.9545, 0.9524, 0.9697])
+Running time 5: 196.11655616760254
+
+----------- Evaluating model 6-----------
+
+Acc: tensor(0.9708)
+F1-ma: tensor(0.9691)
+F1 none: tensor([0.9954, 0.9737, 0.9545, 0.9524, 0.9697])
+Running time 6: 190.9449384212494
+
+----------- Evaluating model 7-----------
+
+Acc: tensor(0.9708)
+F1-ma: tensor(0.9691)
+F1 none: tensor([0.9954, 0.9737, 0.9545, 0.9524, 0.9697])
+Running time 7: 188.71454453468323
+
+----------- Evaluating model 8-----------
+
+Acc: tensor(0.9708)
+F1-ma: tensor(0.9691)
+F1 none: tensor([0.9954, 0.9737, 0.9545, 0.9524, 0.9697])
+Running time 8: 188.4147641658783
+
+----------- Evaluating model 9-----------
+
+Acc: tensor(0.9708)
+F1-ma: tensor(0.9691)
+F1 none: tensor([0.9954, 0.9737, 0.9545, 0.9524, 0.9697])
+Running time 9: 186.61464619636536
+
+************************************************
+RESULTS FOR N_LAYERS: 3  HIDDEN DIM_FEATURES: 64
+Test Acc: 0.969 -- std: 0.005
+Test F1-macro: 0.967 -- std: 0.005
+Test F1 per class: [0.995 0.974 0.95  0.952 0.966]
+************************************************
+
+
+
+TRAINING MODELS SETTING #LAYERS: 4  HIDDEN DIM: 64
+
+----------- Evaluating model 0-----------
+
+Acc: tensor(0.9528)
+F1-ma: tensor(0.9495)
+F1 none: tensor([1.0000, 0.9342, 0.9486, 0.9262, 0.9388])
+Running time 0: 135.4571816921234
+
+----------- Evaluating model 1-----------
+
+Acc: tensor(0.9528)
+F1-ma: tensor(0.9495)
+F1 none: tensor([1.0000, 0.9342, 0.9486, 0.9262, 0.9388])
+Running time 1: 138.22222089767456
+
+----------- Evaluating model 2-----------
+
+Acc: tensor(0.9528)
+F1-ma: tensor(0.9495)
+F1 none: tensor([1.0000, 0.9342, 0.9486, 0.9262, 0.9388])
+Running time 2: 139.1402485370636
+
+----------- Evaluating model 3-----------
+
+Acc: tensor(0.9528)
+F1-ma: tensor(0.9495)
+F1 none: tensor([1.0000, 0.9342, 0.9486, 0.9262, 0.9388])
+Running time 3: 135.46431803703308
+
+----------- Evaluating model 4-----------
+
+Acc: tensor(0.9506)
+F1-ma: tensor(0.9474)
+F1 none: tensor([1.0000, 0.9342, 0.9432, 0.9262, 0.9333])
+Running time 4: 134.8734040260315
+
+----------- Evaluating model 5-----------
+
+Acc: tensor(0.9506)
+F1-ma: tensor(0.9474)
+F1 none: tensor([1.0000, 0.9342, 0.9432, 0.9262, 0.9333])
+Running time 5: 132.7986376285553
+
+----------- Evaluating model 6-----------
+
+Acc: tensor(0.9506)
+F1-ma: tensor(0.9474)
+F1 none: tensor([1.0000, 0.9342, 0.9432, 0.9262, 0.9333])
+Running time 6: 133.63446927070618
+
+----------- Evaluating model 7-----------
+
+Acc: tensor(0.9528)
+F1-ma: tensor(0.9495)
+F1 none: tensor([1.0000, 0.9342, 0.9486, 0.9262, 0.9388])
+Running time 7: 130.98841619491577
+
+----------- Evaluating model 8-----------
+
+Acc: tensor(0.9528)
+F1-ma: tensor(0.9495)
+F1 none: tensor([1.0000, 0.9342, 0.9486, 0.9262, 0.9388])
+Running time 8: 131.86604046821594
+
+----------- Evaluating model 9-----------
+
+Acc: tensor(0.9528)
+F1-ma: tensor(0.9495)
+F1 none: tensor([1.0000, 0.9342, 0.9486, 0.9262, 0.9388])
+Running time 9: 131.8132905960083
+
+************************************************
+RESULTS FOR N_LAYERS: 4  HIDDEN DIM_FEATURES: 64
+Test Acc: 0.952 -- std: 0.001
+Test F1-macro: 0.949 -- std: 0.001
+Test F1 per class: [1.    0.934 0.947 0.926 0.937]
+************************************************
+
+

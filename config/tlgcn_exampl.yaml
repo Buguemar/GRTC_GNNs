@@ -1,0 +1,27 @@
+input_dir_folder: /home/mbugueno/TC_graphs/Data_TLGCN/data
+output_dir_folder: /home/mbugueno/TEST_RESULTS
+
+dataset: imdb
+
+project_name: TLGCN_imdb_test
+
+wandb_path: /home/mbugueno/Wandb_TextLevel/
+
+path_metrics: /home/mbugueno/copia_graph-based_TR/graph-based_TR/TextLevelGCN/Results/
+
+pre_file: WAND_TLGCN_
+
+training: 
+    batch_size: 64
+    bert: False
+    dim_emb: 300
+    embedding: word2vec-google-news-300
+    max_epochs: 100
+    n-gram: 1
+    
+    
+
+experiment: 
+  runs: 1 
+  patience: 2
+  

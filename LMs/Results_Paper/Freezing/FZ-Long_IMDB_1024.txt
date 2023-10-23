@@ -1,0 +1,49 @@
+
+----------- Evaluating model 0-----------
+
+Acc: tensor(0.8013)
+F1-ma: tensor(0.8010)
+F1 none: tensor([0.8092, 0.7928])
+Running time 0: 26566.679734945297
+
+----------- Evaluating model 1-----------
+
+Acc: tensor(0.7913)
+F1-ma: tensor(0.7909)
+F1 none: tensor([0.8004, 0.7814])
+Running time 1: 17772.947296380997
+
+----------- Evaluating model 2-----------
+
+Acc: tensor(0.7967)
+F1-ma: tensor(0.7966)
+F1 none: tensor([0.7985, 0.7948])
+Running time 2: 21278.366527318954
+
+----------- Evaluating model 3-----------
+
+Acc: tensor(0.7887)
+F1-ma: tensor(0.7879)
+F1 none: tensor([0.8009, 0.7749])
+Running time 3: 21276.16861653328
+
+----------- Evaluating model 4-----------
+
+Acc: tensor(0.7720)
+F1-ma: tensor(0.7684)
+F1 none: tensor([0.7393, 0.7974])
+Running time 4: 25372.290145158768
+
+----------- Evaluating model 5-----------
+
+Acc: tensor(0.7477)
+F1-ma: tensor(0.7411)
+F1 none: tensor([0.7823, 0.7000])
+Running time 5: 10805.541156768799
+
+----------- Evaluating model 6-----------
+
+Acc: tensor(0.7783)
+F1-ma: tensor(0.7774)
+F1 none: tensor([0.7920, 0.7628])
+Running time 6: 12557.779949188232

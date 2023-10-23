@@ -1,0 +1,302 @@
+Graph creation time 0: 153.49431848526
+Running time 0: 576.359432220459
+Graph creation time 1: 224.04310965538025
+Running time 1: 769.3631143569946
+Graph creation time 2: 221.86837673187256
+Running time 2: 903.7200436592102
+Graph creation time 3: 169.66421055793762
+Running time 3: 676.1904230117798
+Graph creation time 4: 174.06313920021057
+Running time 4: 1599.7121222019196
+Graph creation time 5: 208.0706169605255
+Running time 5: 1149.818773508072
+Graph creation time 6: 147.06686639785767
+Running time 6: 1018.0247936248779
+Graph creation time 7: 205.10219144821167
+Running time 7: 1170.097359418869
+Graph creation time 8: 205.05530548095703
+Running time 8: 603.7373151779175
+Graph creation time 9: 138.75779056549072
+Running time 9: 1239.778192281723
+
+************************************************
+RESULTS FOR N_GRAM: 4 EMB DIM_FEATURES: glove-wiki-gigaword-300
+Test Acc: 0.956 -- std: 0.004
+Test F1-macro: 0.956 -- std: 0.004
+Test F1 per class: [0.9   0.974 0.902 0.972 0.966 0.969 0.933 0.965 0.997 0.962 0.965 0.969
+ 0.968 0.937]
+Mean Creation Time: 184.71859254837037
+Mean Running Time: 970.6801569461823
+************************************************
+
+
+
+************************************************
+RESULTS FOR N_GRAM: 3 EMB DIM_FEATURES: glove-wiki-gigaword-300
+Test Acc: 0.956 -- std: 0.004
+Test F1-macro: 0.956 -- std: 0.004
+Test F1 per class: [0.901 0.972 0.900 0.973 0.968 0.968 0.944 0.965 0.996 0.961 0.969 0.965
+ 0.974 0.925]
+************************************************
+
+
+Graph creation time 0: 220.11724972724915
+Running time 0: 755.1572504043579
+Graph creation time 1: 212.41182398796082
+Running time 1: 873.1026062965393
+Graph creation time 2: 212.74294996261597
+Running time 2: 715.9726717472076
+Graph creation time 3: 227.14120888710022
+Running time 3: 1139.6465656757355
+Graph creation time 4: 180.24778413772583
+Running time 4: 911.1599729061127
+Graph creation time 5: 212.47123527526855
+Running time 5: 787.6724834442139
+Graph creation time 0: 197.42631840705872
+Running time 0: 1109.0330126285553
+Graph creation time 1: 214.3893015384674
+Running time 1: 632.2596926689148
+Graph creation time 2: 215.25544095039368
+Running time 2: 1159.7245755195618
+Graph creation time 3: 221.61448907852173
+Running time 3: 748.3836252689362
+Graph creation time 4: 151.46091532707214
+Running time 4: 962.1366317272186
+Graph creation time 5: 179.05392146110535
+Running time 5: 712.002227306366
+Graph creation time 6: 204.8529577255249
+Running time 6: 1303.09676861763
+Graph creation time 7: 210.4765956401825
+Running time 7: 1014.1095254421234
+Graph creation time 8: 212.22639632225037
+Running time 8: 676.3132872581482
+Graph creation time 9: 220.08956861495972
+Running time 9: 1568.1434843540192
+
+************************************************
+RESULTS FOR N_GRAM: 2 EMB DIM_FEATURES: glove-wiki-gigaword-300
+Test Acc: 0.958 -- std: 0.003
+Test F1-macro: 0.958 -- std: 0.003
+Test F1 per class: [0.904 0.976 0.908 0.975 0.967 0.965 0.929 0.965 0.994 0.97  0.975 0.969
+ 0.969 0.945]
+Mean Creation Time: 202.68459050655366
+Mean Running Time: 988.5202830791474
+************************************************
+
+
+Graph creation time 0: 221.3670370578766
+Running time 0: 768.011923789978
+Graph creation time 1: 180.41814422607422
+Running time 1: 873.273815870285
+Graph creation time 2: 213.6929726600647
+Running time 2: 568.8950428962708
+Graph creation time 3: 252.5448031425476
+Running time 3: 786.4468643665314
+Graph creation time 4: 206.34445905685425
+Running time 4: 902.0856757164001
+Graph creation time 5: 189.84920644760132
+Running time 5: 1516.5443658828735
+Graph creation time 6: 233.77556014060974
+Running time 6: 680.5041451454163
+Graph creation time 7: 221.00940418243408
+Running time 7: 974.6442520618439
+Graph creation time 8: 207.1231861114502
+Running time 8: 1095.1548652648926
+Graph creation time 9: 219.51455974578857
+Running time 9: 955.1930179595947
+
+************************************************
+RESULTS FOR N_GRAM: 1 EMB DIM_FEATURES: glove-wiki-gigaword-300
+Test Acc: 0.957 -- std: 0.002
+Test F1-macro: 0.956 -- std: 0.002
+Test F1 per class: [0.91  0.976 0.9   0.975 0.962 0.971 0.933 0.968 0.994 0.958 0.97  0.97
+ 0.963 0.939]
+Mean Creation Time: 214.56393327713013
+Mean Running Time: 912.0753968954086
+************************************************
+
+
+Graph creation time 0: 171.11302828788757
+Running time 0: 634.7529079914093
+Graph creation time 1: 180.15071940422058
+Running time 1: 515.9791586399078
+Graph creation time 2: 153.6661901473999
+Running time 2: 1641.9987699985504
+Graph creation time 3: 148.4581537246704
+Running time 3: 805.6620287895203
+Graph creation time 4: 130.58906030654907
+Running time 4: 641.3069605827332
+Graph creation time 5: 151.24932479858398
+Running time 5: 852.3132650852203
+Graph creation time 6: 149.3644664287567
+Running time 6: 909.5740723609924
+Graph creation time 7: 113.68626260757446
+Running time 7: 435.14632773399353
+Graph creation time 8: 126.94325828552246
+Running time 8: 789.4564406871796
+Graph creation time 9: 129.89858412742615
+Running time 9: 660.1707787513733
+
+************************************************
+RESULTS FOR N_GRAM: 4 EMB DIM_FEATURES: word2vec-google-news-300
+Test Acc: 0.958 -- std: 0.002
+Test F1-macro: 0.957 -- std: 0.002
+Test F1 per class: [0.903 0.976 0.896 0.971 0.969 0.973 0.935 0.965 0.996 0.964 0.97  0.977
+ 0.971 0.934]
+Mean Creation Time: 145.51190481185913
+Mean Running Time: 788.636071062088
+************************************************
+
+
+Graph creation time 0: 114.01052117347717
+Running time 0: 780.5874321460724
+Graph creation time 1: 162.89652800559998
+Running time 1: 632.7619860172272
+Graph creation time 2: 145.90723514556885
+Running time 2: 588.2949841022491
+Graph creation time 3: 123.94318795204163
+Running time 3: 615.9091696739197
+Graph creation time 4: 148.98553156852722
+Running time 4: 602.9358050823212
+Graph creation time 5: 133.2742612361908
+Running time 5: 420.20435786247253
+Graph creation time 6: 122.42238903045654
+Running time 6: 439.73824548721313
+Graph creation time 7: 124.96360921859741
+Running time 7: 489.1170508861542
+Graph creation time 8: 134.71622490882874
+Running time 8: 648.7565577030182
+Graph creation time 9: 114.38639998435974
+Running time 9: 865.4642426967621
+
+************************************************
+RESULTS FOR N_GRAM: 3 EMB DIM_FEATURES: word2vec-google-news-300
+Test Acc: 0.957 -- std: 0.002
+Test F1-macro: 0.957 -- std: 0.002
+Test F1 per class: [0.902 0.974 0.906 0.97  0.968 0.967 0.937 0.962 0.992 0.964 0.971 0.975
+ 0.97  0.94 ]
+Mean Creation Time: 132.5505888223648
+Mean Running Time: 608.376983165741
+************************************************
+
+
+Graph creation time 0: 146.4269552230835
+Running time 0: 928.6614315509796
+Graph creation time 1: 143.8076205253601
+Running time 1: 429.1740174293518
+Graph creation time 2: 130.15351128578186
+Running time 2: 590.1699256896973
+Graph creation time 3: 150.86250281333923
+Running time 3: 624.5924110412598
+Graph creation time 4: 111.6325306892395
+Running time 4: 322.60231471061707
+Graph creation time 5: 134.75687265396118
+Running time 5: 631.467404127121
+Graph creation time 6: 153.855055809021
+Running time 6: 740.0993139743805
+Graph creation time 7: 136.91629815101624
+Running time 7: 615.3039727210999
+Graph creation time 8: 114.16443300247192
+Running time 8: 563.3829152584076
+Graph creation time 9: 142.74446606636047
+Running time 9: 592.3803491592407
+
+************************************************
+RESULTS FOR N_GRAM: 2 EMB DIM_FEATURES: word2vec-google-news-300
+Test Acc: 0.957 -- std: 0.002
+Test F1-macro: 0.957 -- std: 0.002
+Test F1 per class: [0.905 0.979 0.894 0.972 0.966 0.968 0.939 0.964 0.995 0.966 0.973 0.974
+ 0.967 0.933]
+Mean Creation Time: 136.5320246219635
+Mean Running Time: 603.7834055662155
+************************************************
+
+
+Graph creation time 0: 153.16752243041992
+Running time 0: 444.27601647377014
+Graph creation time 1: 114.60973143577576
+Running time 1: 400.0706264972687
+Graph creation time 2: 152.0564525127411
+Running time 2: 385.67562913894653
+Graph creation time 3: 141.77303504943848
+Running time 3: 439.88173508644104
+Graph creation time 4: 138.08295106887817
+Running time 4: 466.9708456993103
+Graph creation time 5: 138.5037522315979
+Running time 5: 1067.4999241828918
+Graph creation time 6: 134.00472569465637
+Running time 6: 544.5439088344574
+Graph creation time 7: 142.92558240890503
+Running time 7: 278.27802205085754
+Graph creation time 8: 119.95867705345154
+Running time 8: 332.953289270401
+Graph creation time 9: 143.06467962265015
+Running time 9: 408.6055533885956
+
+************************************************
+RESULTS FOR N_GRAM: 1 EMB DIM_FEATURES: word2vec-google-news-300
+Test Acc: 0.957 -- std: 0.001
+Test F1-macro: 0.956 -- std: 0.001
+Test F1 per class: [0.905 0.978 0.899 0.971 0.964 0.97  0.932 0.967 0.995 0.959 0.97  0.975
+ 0.965 0.937]
+Mean Creation Time: 137.81471095085143
+Mean Running Time: 476.875555062294
+************************************************
+
+
+
+
+************************************************
+RESULTS FOR N_GRAM: 4 EMB DIM_FEATURES: bert-base-uncased
+Test Acc: 0.960 -- std: 0.001
+Test F1-macro: 0.960 -- std: 0.001
+Test F1 per class: [0.902 0.973 0.91  0.974 0.967 0.97  0.941 0.967 0.994 0.968 0.97  0.976
+ 0.975 0.95 ]
+************************************************
+
+************************************************
+RESULTS FOR N_GRAM: 3 EMB DIM_FEATURES: bert-base-uncased
+Test Acc: 0.959 -- std: 0.002
+Test F1-macro: 0.959 -- std: 0.002
+Test F1 per class: [0.903 0.974 0.905 0.973 0.967 0.969 0.945 0.963 0.992 0.968 0.971 0.972
+ 0.973 0.95 ]
+************************************************
+
+Graph creation time 0: 105.34112334251404
+Running time 0: 329.972953081131
+Graph creation time 1: 96.59008741378784
+Running time 1: 313.89322090148926
+Graph creation time 2: 89.48090744018555
+Running time 2: 402.90492820739746
+Graph creation time 3: 92.21674156188965
+Running time 3: 302.268089056015
+Graph creation time 4: 96.09426259994507
+Running time 4: 334.74533677101135
+Graph creation time 5: 91.95818161964417
+Running time 5: 340.2308101654053
+Graph creation time 6: 90.73895788192749
+Running time 6: 296.70336651802063
+Graph creation time 7: 89.69979286193848
+Running time 7: 372.49749183654785
+Graph creation time 8: 93.49608039855957
+Running time 8: 338.64340353012085
+Graph creation time 9: 90.94816589355469
+Running time 9: 299.7182412147522
+
+************************************************
+RESULTS FOR N_GRAM: 2 EMB DIM_FEATURES: bert-base-uncased
+Test Acc: 0.961 -- std: 0.004
+Test F1-macro: 0.960 -- std: 0.002
+Test F1 per class: [0.911 0.979 0.9   0.973 0.966 0.967 0.948 0.966 0.991 0.973 0.979 0.973
+ 0.968 0.943]
+Mean Creation Time: 93.65643010139465
+Mean Running Time: 333.15778412818906
+************************************************
+
+************************************************
+RESULTS FOR N_GRAM: 1 EMB DIM_FEATURES: bert-base-uncased
+Test Acc: 0.957 -- std: 0.003
+Test F1-macro: 0.957 -- std: 0.003
+Test F1 per class: [0.914 0.968 0.912 0.973 0.963 0.915 0.958 0.97   0.997 0.975 0.971 0.972 
+ 0.983 0.925]
+************************************************
