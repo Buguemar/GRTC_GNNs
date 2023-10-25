@@ -71,6 +71,7 @@ class GNN_LightingModel(pl.LightningModule):
     
 class GAT_model(GNN_LightingModel):
     def __init__(self, in_features, num_hidden_conv, out_features, num_layers, lr, num_heads=4, dropout=False, criterion = torch.nn.CrossEntropyLoss()):
+        print ("Creating GAT model")
         super(GAT_model, self).__init__()
         self.num_classes = out_features
         self.dropout = dropout
@@ -101,9 +102,100 @@ class GAT_model(GNN_LightingModel):
         x = F.dropout(x, p=self.dropout, training=self.training)
         x = self.lin(x)
         return x
+
+    
+class GCN_model(GNN_LightingModel):
+    def __init__(self, in_features, num_hidden_conv, out_features, num_layers, lr, dropout=False, criterion = torch.nn.CrossEntropyLoss()):
+        print ("Creating GCN model")
+        super(GCN_model, self).__init__()
+        self.num_classes = out_features
+        self.dropout = dropout
+        self.lr = lr
+        self.num_layers = num_layers
+        self.convs = nn.ModuleList()        
+        self.convs.append(GCNConv(in_features, num_hidden_conv))
+        for l in range(num_layers-1):
+            self.convs.append(GCNConv(num_hidden_conv, num_hidden_conv))
+
+        self.lin = Linear(num_hidden_conv, out_features)
+        self.criterion = criterion
+
+    def forward(self, x, edge_index, edge_attr, batch):
+        for i in range(self.num_layers):
+            if edge_attr==None: 
+                x = self.convs[i](x, edge_index)
+            else: 
+                x = self.convs[i](x, edge_index, edge_attr.float())
+                
+            emb = x
+            x = F.relu(x)
+            if self.dropout!=False:
+                x = F.dropout(x, p=self.dropout, training=self.training)
+
+        x = global_mean_pool(x, batch) 
+        x = F.dropout(x, p=self.dropout, training=self.training)
+        x = self.lin(x)
+        
+        return x    
+    
+
+class GIN_model(GNN_LightingModel):
+    def __init__(self, input_dim, hidden_dim, out_features, num_layers, lr, dropout, with_edges_attr = False):
+        super(GIN_model, self).__init__()
+        if with_edges_attr:
+            print ("Creating GINE model")
+        else: 
+            print ("Creating GIN model")
+        self.with_edges_attr = with_edges_attr
+        self.num_classes = out_features
+        self.lr = lr
+        self.convs = nn.ModuleList()
+        self.convs.append(self.build_conv_model(input_dim, hidden_dim))
+        self.lns = nn.ModuleList()
+        self.lns.append(nn.LayerNorm(hidden_dim))
+        for l in range(num_layers-2):
+            self.lns.append(nn.LayerNorm(hidden_dim))
+        self.num_layers = num_layers
+        self.dropout = dropout 
+        for l in range(num_layers-1):
+            self.convs.append(self.build_conv_model(hidden_dim, hidden_dim))
+
+        self.post_mp = nn.Sequential(
+            nn.Linear(hidden_dim, hidden_dim), nn.Dropout(self.dropout), 
+            nn.Linear(hidden_dim, out_features))
+        
+
+    def build_conv_model(self, input_dim, hidden_dim):
+        if self.with_edges_attr:
+            return pyg_nn.GINEConv(nn.Sequential(nn.Linear(input_dim, hidden_dim),
+                                                 nn.ReLU(), nn.Linear(hidden_dim, hidden_dim)), edge_dim=1) 
+        else:
+            return pyg_nn.GINConv(nn.Sequential(nn.Linear(input_dim, hidden_dim),
+                                                nn.ReLU(), nn.Linear(hidden_dim, hidden_dim)))
+        
+        return 
+ 
+    def forward(self, x, edge_index, edge_attr, batch):
+        for i in range(self.num_layers):
+            if edge_attr==None: 
+                x = self.convs[i](x, edge_index)
+            else: 
+                x = self.convs[i](x, edge_index, edge_attr.float())                
+            emb = x
+            x = F.relu(x)
+            x = F.dropout(x, p=self.dropout, training=self.training)
+            if not i == self.num_layers - 1:
+                x = self.lns[i](x)
+                
+        x = pyg_nn.global_mean_pool(x, batch)
+        x = self.post_mp(x)
+        return F.log_softmax(x, dim=1)
+
+    def criterion(self, pred, label):
+        return F.nll_loss(pred, label)    
     
     
-def partitions(dataset, dataset_test, trainp=0.8, valp=0.2, bs=64):
+def partitions(dataset, dataset_test, bs, trainp=0.8, valp=0.2):
     if np.round(trainp+valp)!=1.0:
         print ("Partitions don't fit. Please specify partitions that sum 1.")
         return 
@@ -120,18 +212,22 @@ def partitions(dataset, dataset_test, trainp=0.8, valp=0.2, bs=64):
     return train_loader, val_loader, test_loader
 
 
-def run_bunch_experiments(dataset, dataset_test, path_models, path_results, n_layers, dim_features, file_to_save, type_model, lr, dropout, project_name, bunch=10, pat=10, ep=100, progress_bar=False):
+def run_bunch_experiments(dataset, dataset_test, path_models, path_results, n_layers, dim_features, file_to_save, type_model, lr, dropout, bs, project_name, with_edges_attr, bunch=10, pat=10, ep=100, progress_bar=False):
     
     start = time.time()
     np.set_printoptions(precision=3)
     
-    train_loader, val_loader, test_loader = partitions(dataset, dataset_test)
+    train_loader, val_loader, test_loader = partitions(dataset, dataset_test, bs)
     
-    with open(path_results+type_model+"_"+file_to_save+'.txt', 'a') as f:
+    num_node_features = dataset.num_node_features
+    num_classes = dataset.num_classes 
+    
+    with open(path_results+file_to_save+'.txt', 'a') as f:
     
         for nl in n_layers:
 
             for dim in dim_features:
+                
                 print ("\nTRAINING MODELS SETTING #LAYERS:", nl, " HIDDEN DIM:", dim)
                 print ("\nTRAINING MODELS SETTING #LAYERS:", nl, " HIDDEN DIM:", dim, file=f)
                 acc_tests=[]
@@ -141,13 +237,19 @@ def run_bunch_experiments(dataset, dataset_test, path_models, path_results, n_la
                     starti = time.time()
                     
                     if type_model=="GAT":
-                        model = GAT_model(dataset.num_node_features, dim, dataset.num_classes,  nl, lr, dropout=dropout)    
+                        model = GAT_model(num_node_features, dim, num_classes,  nl, lr, dropout=dropout)    
                     
-                    #elif type_model=="GIN":
-                    #    model = GAT_model(dataset.num_node_features, dim, dataset.num_classes, nl, dropout=0.2)
-                    #else:  #GCN
-                    #    model = GCN_model()
+                    elif type_model=="GIN":
+                        model = GIN_model(num_node_features, dim, num_classes, nl, lr, dropout=dropout,
+                                          with_edges_attr=with_edges_attr)
+                        
+                    elif type_model=="GCN":  
+                        model = GCN_model(num_node_features, dim, num_classes,  nl, lr, dropout=dropout)  
                     
+                    else: 
+                        print ("Type model error: No GNN was intended")                      
+                        return 
+                        
                     early_stop_callback = EarlyStopping(monitor="Val_f1ma", 
                                                         mode="max", min_delta=1e-3, patience=pat, verbose=True)
                     wandb_logger = WandbLogger(name=type_model+"Model_L"+str(nl)+"_U"+str(dim), 
@@ -172,7 +274,7 @@ def run_bunch_experiments(dataset, dataset_test, path_models, path_results, n_la
                     trues = torch.concat(trues)
 
                     acc=(trues ==preds).float().mean() 
-                    f1_score = F1Score(num_classes=dataset.num_classes, average=None)
+                    f1_score = F1Score(num_classes, average=None)
                     f1_all = f1_score(preds, trues)
                     print ("Acc:", acc, file=f)
                     print ("Acc:", acc)

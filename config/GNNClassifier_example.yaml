@@ -1,4 +1,4 @@
-input_dir_folder: /home/mbugueno/TC_graphs/Data_Graphs/data_bbc_prep/1.C/
+input_dir_folder: /home/mbugueno/TC_graphs/Data_Graphs/data_bbc_prep_w2v/1.C/
 output_dir_folder: /home/mbugueno/
 results_dir_folder: /home/mbugueno/copia_graph-based_TR/graph-based_TR/IntuitiveGraphs/Results/
 
@@ -8,11 +8,13 @@ dataset: bbc
 
 num_classes: 5
 
-pre_trained_embedding: None
+with_edge_attr: True 
+
+pre_trained_embedding: word2vec-google-news-300
 
 pre_file: WANDB_ 
 
-node_feature_init: BERT
+node_feature_init: word2vec
 
 training: 
     batch_size: 16
@@ -23,7 +25,6 @@ training:
 experiment: 
   runs: 1 
   patience: 2
-  type_model: GAT
+  type_model: GIN
   num_layers: 2
   hidden_dims: 64
-  

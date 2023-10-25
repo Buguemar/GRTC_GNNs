@@ -1,3 +1,4 @@
+import gensim.downloader as api
 import matplotlib.pyplot as plt
 import networkx as nx
 import numpy as np 
@@ -366,7 +367,7 @@ class MyGraphDatasetEmb(Dataset):
         self.data = pd.read_csv(self.raw_paths[0]).reset_index()
         from transformers import BertModel
         import torch
-        emb_vectors = gensim.downloader.load(self.pre_embedding)
+        emb_vectors = api.load(self.pre_embedding)
         with_edge_attr=False
         try: 
             with_edge = self.data["edges_attr"]

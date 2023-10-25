@@ -22,6 +22,7 @@ def main_run(config_file):
     num_classes = config_file["num_classes"]
     pre_trained_emb = config_file["pre_trained_embedding"] #'word2vec-google-news-300', 'glove-wiki-gigaword-300'
     filename = config_file["filename"]
+    with_edges_attr = config_file["with_edge_attr"]
         
     num_epoch = config_file["training"]["max_epochs"]
     bs = config_file["training"]["batch_size"]
@@ -33,9 +34,11 @@ def main_run(config_file):
     type_model = config_file["experiment"]["type_model"]
     n_layers = [config_file["experiment"]["num_layers"]]
     dim_features = [config_file["experiment"]["hidden_dims"]]
-    project_name = type_model+"_"+init+"_"+filename
-    file_to_save = project_name   #config_file["pre_file"]+project_name
-
+    if with_edges_attr and type_model=="GIN":
+        project_name = type_model+"E_"+init+"_"+filename
+    else: 
+        project_name = type_model+"_"+init+"_"+filename
+    file_to_save = project_name  
 
     if init=='BERT':
         dataset= MyGraphDataset(root=path_root, filename=filename) 
@@ -51,7 +54,7 @@ def main_run(config_file):
     dataset_test.num_classes = num_classes
 
     run_bunch_experiments(dataset, dataset_test, path_models, path_results, n_layers, dim_features, file_to_save, 
-                          type_model, lr, dropout, project_name, num_execs, patience, num_epoch)
+                          type_model, lr, dropout, bs, project_name, with_edges_attr, num_execs, patience, num_epoch)
 
     print(f"Finished whole execution of {num_execs} runs in {time.time()-start_time:.2f} secs")    
 
