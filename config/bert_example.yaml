@@ -7,7 +7,7 @@ num_classes: 5
 
 pre_trained_model: bert-base-uncased
 
-path_metrics: /home/mbugueno/copia_graph-based_TR/graph-based_TR/LMs/Results/
+path_metrics: /home/mbugueno/GRTC_GNNs/LMs/Results/
 
 pre_file: WANDB_ 
 

@@ -7,7 +7,7 @@ project_name: TLGCN_imdb_test
 
 wandb_path: /home/mbugueno/Wandb_TextLevel/
 
-path_metrics: /home/mbugueno/copia_graph-based_TR/graph-based_TR/TextLevelGCN/Results/
+path_metrics: /home/mbugueno/GRTC_GNNs/TextLevelGCN/Results/
 
 pre_file: WAND_TLGCN_
 

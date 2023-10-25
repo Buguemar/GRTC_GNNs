@@ -1,0 +1,20 @@
+
+TRAINING MODELS SETTING #LAYERS: 2  HIDDEN DIM: 64
+
+----------- Evaluating model 0-----------
+
+
+Training stopped on epoch: 10
+Acc: tensor(0.9573)
+F1-ma: tensor(0.9548)
+F1 none: tensor([0.9907, 0.9548, 0.9425, 0.9306, 0.9552])
+Running time 0: 48.43220901489258
+
+************************************************
+RESULTS FOR N_LAYERS: 2  HIDDEN DIM_FEATURES: 64
+Test Acc: 0.957 -- std: 0.000
+Test F1-macro: 0.955 -- std: 0.000
+Test F1 per class: [0.991 0.955 0.943 0.931 0.955]
+************************************************
+
+

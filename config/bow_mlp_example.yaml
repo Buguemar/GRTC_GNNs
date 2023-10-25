@@ -5,7 +5,7 @@ dataset: bbc
 
 num_classes: 5
 
-path_metrics: /home/mbugueno/copia_graph-based_TR/graph-based_TR/BOW_MLP/Results/
+path_metrics: /home/mbugueno/GRTC_GNNs/BOW_MLP/Results/
 
 training: 
     batch_size: 16
