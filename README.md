@@ -1,5 +1,5 @@
 # GRTC_GNNs
-Public repository of our paper accepted to the Findings of EMNLP 2023: *Graph Representations for Text Classification Using GNNs: Exploring Advantages and Limitations.*
+Public repository of our paper accepted to the Findings of EMNLP 2023: *Connecting the Dots: What Graph-Based Text Representations Work Best for Text Classification using Graph Neural Networks?*
 
 
 ## Training 
