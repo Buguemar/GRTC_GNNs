@@ -1,5 +1,5 @@
 # GRTC_GNNs
-Public repository of our paper accepted to the Findings of EMNLP 2023: *Connecting the Dots: What Graph-Based Text Representations Work Best for Text Classification using Graph Neural Networks?*
+Public repository of our paper accepted to the Findings of EMNLP 2023: [*Connecting the Dots: What Graph-Based Text Representations Work Best for Text Classification using Graph Neural Networks?*](https://aclanthology.org/2023.findings-emnlp.600/)
 
 
 ## Training 
